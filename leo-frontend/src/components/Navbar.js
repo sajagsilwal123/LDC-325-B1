@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import DropdownAboutUs from './DropdownAboutUs';
-import DropdownResources from './DropdownResources'
+
 import './Navbar.css';
 
 function Navbar() {
