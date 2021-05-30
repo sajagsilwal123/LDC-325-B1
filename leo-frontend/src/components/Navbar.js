@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-
 import './Navbar.css';
+
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -11,45 +12,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  //////dropdowns
-  const [dropdownAboutUs, setDropdownAboutUs] = useState(false);
-  const [dropdownResources, setDropdownResources] = useState(false);
 
-const onMouseEnterAboutUs = () => {
-    if (window.innerWidth < 960) {
-      setDropdownAboutUs(false);
-    } else {
-      setDropdownAboutUs(true);
-    }
-  };
-
-const onMouseLeaveAboutUs = () => {
-    if (window.innerWidth < 960) {
-      setDropdownAboutUs(false);
-    } else {
-      setDropdownAboutUs(false);
-    }
-  };
-
-  const onMouseEnterResources = () => {
-    if (window.innerWidth < 960) {
-      setDropdownResources(false);
-    } else {
-      setDropdownResources(true);
-    }
-  };
-
-  const onMouseLeaveResources = () => {
-    if (window.innerWidth < 960) {
-      setDropdownResources(false);
-    } else {
-      setDropdownResources(false);
-    }
-  };
-
-
-
-  
 const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -140,7 +103,7 @@ const showButton = () => {
                 <div class="dropdown">
                   <button class="dropbtn">About Us</button>
                     <div class="dropdown-content">
-                      
+
                       <Link
                           to='/AboutUs'
                           className='drp-links'
@@ -182,3 +145,5 @@ const showButton = () => {
 }
 
 export default Navbar;
+
+
