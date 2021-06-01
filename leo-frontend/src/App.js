@@ -1,14 +1,14 @@
 import Navigation from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
-import OurTeam from './components/Pages/About Us/OurTeam';
-import ClubDetails from './components/Pages/About Us/ClubDetails';
-import PastLeaders from './components/Pages/About Us/PastLeaders';
-import DistrictDirectory from './components/Pages/Resources/DistrictDirectory';
-import InternationalForms from './components/Pages/Resources/InternationalForms';
-import ImportantDates from './components/Pages/Resources/ImportantDates';
-import LeoPledge from './components/Pages/Resources/LeoPledge';
-import FlagSalutation from './components/Pages/Resources/FlagSalutation';
-import MoreResources from './components/Pages/Resources/MoreResources';
+import OurTeam from './components/pages/About Us/OurTeam';
+import ClubDetails from './components/pages/About Us/ClubDetails';
+import PastLeaders from './components/pages/About Us/PastLeaders';
+import DistrictDirectory from './components/pages/Resources/DistrictDirectory';
+import InternationalForms from './components/pages/Resources/InternationalForms';
+import ImportantDates from './components/pages/Resources/ImportantDates';
+import LeoPledge from './components/pages/Resources/LeoPledge';
+import FlagSalutation from './components/pages/Resources/FlagSalutation';
+import MoreResources from './components/pages/Resources/MoreResources';
 
       
 import {
