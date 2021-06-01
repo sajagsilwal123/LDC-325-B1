@@ -25,8 +25,8 @@ function NavigationBar() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto" >
-      <Nav.Link href="/Home" >Home</Nav.Link>
-      <Nav.Link href="/Events">Events</Nav.Link>
+      <Nav.Link href="/Home" className='text-blue'>Home</Nav.Link>
+      <Nav.Link href="/Events" className='text-blue'>Events</Nav.Link>
       <NavDropdown title="Resources" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/DistrictDirectory">District Directory</NavDropdown.Item>
         <NavDropdown.Item href="/InternationalForms">International Forms</NavDropdown.Item>
@@ -45,7 +45,7 @@ function NavigationBar() {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">e-Newsletter</Nav.Link>
+      <Nav.Link href="#deets" className='text-blue'>e-Newsletter</Nav.Link>
 
     </Nav>
   </Navbar.Collapse>
