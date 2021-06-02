@@ -1,57 +1,35 @@
-import React from 'react'
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
-import lions from '../../public/images/lions.png'
-import leo from '../../public/images/leo.png'
-import css from './nav.css'
+  <Row className="my-3">
+            <Carousel>
+                <Carousel.Item>
+                <Card bg="light"  > 
+                    <Card.Body >
+                        <h3>Secondary Card Title</h3>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk
+                        of the card's content.fhjgksdfagfdgsalfhjkdsahf;kadshiojfhb;jkfasdhjklf;sdahklj;fdsa
+                        Some quick example text to build on the card title and make up the bulk Some quick example text to build on the card title and make up the bulk
+                        of the card's content.fhjgksdfagfdgsalfhjkdsahf;kadshiojfhb;jkfasdhjklf;sdahklj;fdsa
+                        of the card's content.fhjgksdfagfdgsalfhjkdsahf;kadshiojfhb;jkfasdhjklf;sdahklj;fdsa
+                        </Card.Text>
+                    </Card.Body>
+                    </Card> 
+                </Carousel.Item>
+                <Carousel.Item>
+                <Card bg="light"  > 
+                    <Card.Body >
+                        <h3>Secondary Card Title</h3>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk
+                        of the card's content.fhjgksdfagfdgsalfhjkdsahf;kadshiojfhb;jkfasdhjklf;sdahklj;fdsa
+                        Some quick example text to build on the card title and make up the bulk Some quick example text to build on the card title and make up the bulk
+                        of the card's content.fhjgksdfagfdgsalfhjkdsahf;kadshiojfhb;jkfasdhjklf;sdahklj;fdsa
+                        of the card's content.fhjgksdfagfdgsalfhjkdsahf;kadshiojfhb;jkfasdhjklf;sdahklj;fdsa
+                        </Card.Text>
+                    </Card.Body>
+                    </Card> 
+                </Carousel.Item>
 
+                </Carousel>
 
-const Navigaiton = () => {
-    return(
-<div >
-                <Navbar collapseOnSelect expand="lg" variant='light'>
-
-    <Container className="border-yellow">
-        <Navbar.Brand href="#home">
-                            
-                            <img src={lions} className={css.logo} height="60" alt='lions logo' /> 
-                            <img src={leo} height="60" style={{marginLeft:'1em'}} alt='leo logo'/> 
-            
-        </Navbar.Brand>
-
-        <Navbar.Brand href="/" className='text-blue'>LDC 325 B1, Nepal </Navbar.Brand>
-    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto" >
-        <Nav.Link href="/Home" className='text-blue'>Home</Nav.Link>
-        <Nav.Link href="/Events" className='text-blue'>Events</Nav.Link>
-        <NavDropdown className='text-blue' title="Resources" id="collasible-nav-dropdown" >
-            <NavDropdown.Item href="/DistrictDirectory" className='text-blue'>District Directory</NavDropdown.Item>
-            <NavDropdown.Item href="/InternationalForms" className='text-blue'>International Forms</NavDropdown.Item>
-            <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
-            <NavDropdown.Item href="/LeoPledge" className='text-blue'>Leo Pledge</NavDropdown.Item>
-            <NavDropdown.Item href="/FlagSalutation" className='text-blue'>Flag Salutation</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="MoreResources" className='text-blue' className='text-blue'>More Resources</NavDropdown.Item>
-        </NavDropdown>
-
-        <NavDropdown title="About Us" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/OurTeam" className='text-blue'>Our team </NavDropdown.Item>
-            <NavDropdown.Item href="/PastLeaders" className='text-blue'>Past Leaders</NavDropdown.Item>
-            <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
-
-        </NavDropdown>
-        </Nav>
-        <Nav>
-        <Nav.Link href="#deets" className='text-blue'>e-Newsletter</Nav.Link>
-
-        </Nav>
-    </Navbar.Collapse>
-    </Container>
-</Navbar>
-
-</div>
-)
-    
-}
-
-export default Navigaiton
+                </Row>
+                
