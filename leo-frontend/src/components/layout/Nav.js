@@ -34,14 +34,12 @@ const Navigaiton = () => {
                             <Link to='/'>
                                 <Nav.Link href="/" className='text-blue'>HOME</Nav.Link>
                             </Link>
-                            <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
-
                             <NavDropdown title="ABOUT-US" id="collasible-nav-dropdown" className='text-blue'>
                                 <NavDropdown.Item href="/OurTeam" className='text-blue'>Our team </NavDropdown.Item>
                                 <NavDropdown.Item href="/PastLeaders" className='text-blue'>Past Leaders</NavDropdown.Item>
                                 <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
-
                             </NavDropdown>
+                            <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
                             <NavDropdown title="RESOURCES" id="collasible-nav-dropdown" className='text-blue'>
                                 <NavDropdown.Item href="/DistrictDirectory" className='text-blue'>District Directory</NavDropdown.Item>
                                 <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
