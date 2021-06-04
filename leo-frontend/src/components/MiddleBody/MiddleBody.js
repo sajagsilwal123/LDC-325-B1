@@ -5,7 +5,7 @@ import leo from "../../public/images/leo.png"
 import test from "../../public/images/test.png"
 import css from './hero.css'
 import "./MidCards.css"
-import {Row, Container, Col, Card} from 'react-bootstrap'
+import {Row, Container, Col, Card, ListGroup, ListGroupItem} from 'react-bootstrap'
 import {Link} from "react-router-dom"
 
 const MiddleBody = () => {
@@ -20,24 +20,21 @@ const MiddleBody = () => {
                     <Col md={4} sm={12}>
                     <Carousel>
                         <Carousel.Item>
-                        <Card className="bg-dark ">
-                            <Card.Img src={test} alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
-                                <h3>What is LEO?</h3>
-                                <Card.Text>
-
-                                   Leo Club is an international organization. It is a youth organization of Lions Clubs International.                               
+                        <Card border="dark" >
+                            <Card.Body>
+                            <h5>What is LEO?</h5>
+                            <Card.Text>
+                            Leo Club is an international organization. It is a youth organization of Lions Clubs International.                               
                                        <br/>
                                        <ul>
                                         <li>
-                                            <h5>   <strong>L</strong>   stands for Leadership which comprises self-awareness, gratitude, ability to delegate,
+                                            <h5>   <strong>L</strong>   stands for  <strong>Leadership</strong> which comprises self-awareness, gratitude, ability to delegate,
                                               learning agility, and influence.
                                             </h5>                                        
                                         </li>
                                         <li>
                                             <h5>
-                                                <strong>E</strong>  stands for Experience, followed by leadership, observation,
+                                                <strong>E</strong>  stands for <strong>Experience</strong>, followed by leadership, observation,
                                                 knowledge, and perception.
                                             </h5>
                                             
@@ -45,52 +42,39 @@ const MiddleBody = () => {
 
                                         <h5>
                                             <li>
-                                            <strong>O</strong>  stands for Opportunity led by hard work, dedication, and interest.
+                                            <strong>O</strong>  stands for <strong>Opportunity</strong> led by hard work, dedication, and interest.
                                         </li>
                                         </h5>
                                         
                                       
                                     </ul>
-                                  
-                                </Card.Text>
-                            </Card.ImgOverlay>
-                        </Card> 
+                            </Card.Text>
+                            </Card.Body>
+                        </Card>
                         </Carousel.Item>
-                        <Carousel.Item>
-                        <Card className="bg-dark ">
-                            <Card.Img src={test} alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
-                                <h3>What is LEO?</h3>
-                                <Card.Text>
 
-                                   Leo Club is an international organization. It is a youth organization of Lions Clubs International.                               
-                                       <br/>
+                        <Carousel.Item>
+                        <Card >
+                            <Card.Img variant="top" src={LDC325B1}/>
+
+                                <Card.Title>Objectives</Card.Title>
+                                <Card.Text>
+                                The Objectives of LEO are:
+                                <br/>
                                        <ul>
                                         <li>
-                                            <h5>   <strong>L</strong>   stands for Leadership which comprises self-awareness, gratitude, ability to delegate,
-                                              learning agility, and influence.
-                                            </h5>                                        
-                                        </li>
-                                        <li>
-                                            <h5>
-                                                <strong>E</strong>  stands for Experience, followed by leadership, observation,
-                                                knowledge, and perception.
-                                            </h5>
-                                            
+                                            To promote service activities among youth.                                        
                                         </li>
 
-                                        <h5>
-                                            <li>
-                                            <strong>O</strong>  stands for Opportunity led by hard work, dedication, and interest.
+                                        <li>
+                                            To Develop Leadership qualities via Experience and Opportunity.                                        
                                         </li>
-                                        </h5>
-                                        
-                                      
-                                    </ul>
-                                  
+
+                                        <li>
+                                            To Unite youth and promote fellowship                                         
+                                        </li>                                  
+                                      </ul>
                                 </Card.Text>
-                            </Card.ImgOverlay>
                         </Card>
                         </Carousel.Item>
 
@@ -121,31 +105,28 @@ const MiddleBody = () => {
                            </div>
                           
                        </div>
-                   </div>
-                       
+                   </div>                       
                     </Card>
                     </Col>
+
                     <Col md={4} sm={12}>
                     <Carousel>
                         <Carousel.Item>
-                        <Card className="bg-dark ">
-                            <Card.Img src={test} alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
-                                <h3>What is LEO?</h3>
-                                <Card.Text>
-
-                                   Leo Club is an international organization. It is a youth organization of Lions Clubs International.                               
+                        <Card border="dark" >
+                            <Card.Body>
+                            <h5>What is LEO?</h5>
+                            <Card.Text>
+                            Leo Club is an international organization. It is a youth organization of Lions Clubs International.                               
                                        <br/>
                                        <ul>
                                         <li>
-                                            <h5>   <strong>L</strong>   stands for Leadership which comprises self-awareness, gratitude, ability to delegate,
+                                            <h5>   <strong>L</strong>   stands for  <strong>Leadership</strong> which comprises self-awareness, gratitude, ability to delegate,
                                               learning agility, and influence.
                                             </h5>                                        
                                         </li>
                                         <li>
                                             <h5>
-                                                <strong>E</strong>  stands for Experience, followed by leadership, observation,
+                                                <strong>E</strong>  stands for <strong>Experience</strong>, followed by leadership, observation,
                                                 knowledge, and perception.
                                             </h5>
                                             
@@ -153,64 +134,43 @@ const MiddleBody = () => {
 
                                         <h5>
                                             <li>
-                                            <strong>O</strong>  stands for  Opportunity led by hard work, dedication, and interest.
+                                            <strong>O</strong>  stands for <strong>Opportunity</strong> led by hard work, dedication, and interest.
                                         </li>
                                         </h5>
                                         
                                       
                                     </ul>
-                                  
-                                </Card.Text>
-                            </Card.ImgOverlay>
+                            </Card.Text>
+                            </Card.Body>
                         </Card>
                         </Carousel.Item>
+
                         <Carousel.Item>
-                        <Card className="bg-dark ">
-                            <Card.Img src={test} alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
-                                <h3>What is LEO?</h3>
-                                <Card.Text>
+                        <Card >
+                            <Card.Img variant="top" src={LDC325B1}/>
 
-                                   Leo Club is an international organization. It is a youth organization of Lions Clubs International.                               
-                                       <br/>
+                                <Card.Title>Objectives</Card.Title>
+                                <Card.Text>
+                                The Objectives of LEO are:
+                                <br/>
                                        <ul>
                                         <li>
-                                            <h5>   <strong>L</strong>   stands for Leadership which comprises self-awareness, gratitude, ability to delegate,
-                                              learning agility, and influence.
-                                            </h5>                                        
-                                        </li>
-                                        <li>
-                                            <h5>
-                                                <strong>E</strong>  stands for Experience, followed by leadership, observation,
-                                                knowledge, and perception.
-                                            </h5>
-                                            
+                                            To promote service activities among youth.                                        
                                         </li>
 
-                                        <h5>
-                                            <li>
-                                            <strong>O</strong>  stands for Opportunity led by hard work, dedication, and interest.
+                                        <li>
+                                            To Develop Leadership qualities via Experience and Opportunity.                                        
                                         </li>
-                                        </h5>
-                                        
-                                      
-                                    </ul>
-                                  
+
+                                        <li>
+                                            To Unite youth and promote fellowship                                         
+                                        </li>                                  
+                                      </ul>
                                 </Card.Text>
-                            </Card.ImgOverlay>
                         </Card>
                         </Carousel.Item>
-
                     </Carousel>
 
-
-
-                    <Card bg="light" > 
-
-                            
-                        </Card> 
-                       
                     </Col>
 
                 </Row>

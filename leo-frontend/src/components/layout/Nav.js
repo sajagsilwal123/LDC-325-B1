@@ -1,7 +1,9 @@
 import React from 'react'
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
 import lions from '../../public/images/lions.png'
+import flag from '../../public/images/NepalFlag.png'
 import leo from '../../public/images/leo.png'
+import LDC325B1 from '../../public/images/LDC325B1.png'
 import css from './nav.css'
 import { Link } from 'react-router-dom'
 
@@ -15,13 +17,14 @@ const Navigaiton = () => {
                       <Container className="border-yellow">
                       
                       <Navbar.Brand href="/">
-                          
-                      <img src={lions} className={css.logo} height="32" alt='lions logo' /> 
-                      <img src={leo} height="30" style={{marginLeft:'0.5em'}} alt='leo logo'/> 
-      
+                        <img src={flag} className={css.logo} height="25" alt='lions logo' />     
+                        <img src={lions} className={css.logo} height="25" style={{marginLeft:'0.4em'}} alt='lions logo' /> 
+                        <img src={leo} height="25" style={{marginLeft:'0.4em'}} alt='leo logo'/> 
+                        <img src={LDC325B1} height="20" style={{marginLeft:'0.4em'}} alt='leo logo'/>
+
                       </Navbar.Brand>
                       <Navbar.Brand href="/">
-                            Leo District Council 325 B1, Nepal
+                            LDC 325 B1, Nepal
           
                           </Navbar.Brand>
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,9 +44,8 @@ const Navigaiton = () => {
                             </NavDropdown>
                             <NavDropdown title="RESOURCES" id="collasible-nav-dropdown" className='text-blue'>
                                 <NavDropdown.Item href="/DistrictDirectory" className='text-blue'>District Directory</NavDropdown.Item>
-                                <NavDropdown.Item href="/InternationalForms" className='text-blue'>International Forms</NavDropdown.Item>
                                 <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
-                                <NavDropdown.Item href="/LeoPledge" className='text-blue'>Leo Pledge</NavDropdown.Item>
+                                <NavDropdown.Item href="/LeoManual" className='text-blue'>Training Manual</NavDropdown.Item>
                                 <NavDropdown.Item href="/FlagSalutation" className='text-blue'>Flag Salutation</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
