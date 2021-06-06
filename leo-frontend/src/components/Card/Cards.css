@@ -1,21 +1,8 @@
-.cards {
-  padding: 1rem;
-  background: #fff;
-}
+
 
 h1 {
   text-align: center;
 }
-
-.cards__container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
-}
-
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
@@ -93,9 +80,19 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #686b74;
   font-size: 18px;
   line-height: 24px;
+}
+.text-yellow{
+  color: #F2B705 !important;
+  
+}
+.border-top{
+  border-top: #F2B705 solid 0.5em !important;
+  margin-top: 0px;
+  margin-bottom: 1em;
+  width: 20vw;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -107,6 +104,7 @@ h1 {
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
+
   }
 }
 

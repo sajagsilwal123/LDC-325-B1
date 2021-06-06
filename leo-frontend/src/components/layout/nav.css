@@ -4,13 +4,18 @@ a{
 .logo{
     height:px;
 }
-.text-blue{
-    color: #525151 !important;
-    margin-left:0.1em;
+.nav-link .text-blue{
+    color: #1755A6 !important;
     text-decoration: none;
 }
+.navbar-light .navbar-nav .nav-link {
+    margin-left:1.5em !important;
+    font-size: large;
+    color: #1755A6 !important;
+
+}
 .footer{
-    background-color: #494949;
+    background-color: #1755A6;
     min-height: 20em;
     color: white;
     padding: 2em 0 2em 0;
@@ -39,7 +44,10 @@ a{
 .footer-clr:hover{
     color: burlywood;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: #1755A6 !important;
 
+}
 @media only screen and (max-width: 960) {
     .navbar-expand-lg .navbar-collapse {
         flex-direction:row !important;

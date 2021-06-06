@@ -81,11 +81,6 @@ const Footer = () => {
                         <p>
                         Kathmandu, Bla bla
                         </p>
-                    </Col>
-
-                    <Col md={25} className="text-center mt-5">
-
-                    <Col className="text-center">
                         <section className='social-media'>
                         <div class='social-media-wrap'>
 
@@ -117,6 +112,12 @@ const Footer = () => {
                         </div>
                         </div>
                     </section>
+                    </Col>
+
+                    <Col md={25} className="text-center mt-5">
+
+                    <Col className="text-center">
+                   
 
                     </Col>
                     </Col>

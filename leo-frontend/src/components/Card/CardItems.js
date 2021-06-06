@@ -1,11 +1,10 @@
 import React from 'react';
-import leo from '../../public/images/leo.png'
 import { Link } from 'react-router-dom';
+import { Row, Col} from 'react-bootstrap';
 
 function CardItem(props) {
   return (
-    <>
-      <li className='cards__item'>
+    <Col sm={4} className='mt-4'>
         <Link className='cards__item__link' to={props.path}>
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
@@ -14,12 +13,23 @@ function CardItem(props) {
               src={props.src}
             />
           </figure>
-          <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
-          </div>
+          <Row className='cards__item__text py-3 px-3'>
+            <Col sm={4}>
+              <div class='h3 text-center text-yellow pt-4'>
+              {props.date}
+
+              </div>
+            </Col>
+            <Col sm={8}>
+              <h3 class="text-dark">{props.title}</h3>
+              <p class='text-secondary'>
+              {props.text}
+              </p>
+
+            </Col>
+          </Row>
         </Link>
-      </li>
-    </>
+    </Col>
   );
 }
 

@@ -10,23 +10,20 @@ import { Link } from 'react-router-dom'
 
 const Navigaiton = () => {
     return(
-        <div >
+        <div class='mb-3' >
          
             <Navbar variant='light' expand="lg">
                       
                       <Container className="border-yellow">
                       
                       <Navbar.Brand href="/">
-                        <img src={flag} className={css.logo} height="25" alt='lions logo' />     
-                        <img src={lions} className={css.logo} height="25" style={{marginLeft:'0.4em'}} alt='lions logo' /> 
-                        <img src={leo} height="25" style={{marginLeft:'0.4em'}} alt='leo logo'/> 
-                        <img src={LDC325B1} height="20" style={{marginLeft:'0.4em'}} alt='leo logo'/>
+                        <img src={flag} className={css.logo} height="40" alt='lions logo' />     
+                        <img src={lions} className={css.logo} height="40" style={{marginLeft:'0.4em'}} alt='lions logo' /> 
+                        <img src={leo} height="40" style={{marginLeft:'0.4em'}} alt='leo logo'/> 
+                        <img src={LDC325B1} height="35" style={{marginLeft:'0.4em'}} alt='leo logo'/>
 
                       </Navbar.Brand>
-                      <Navbar.Brand href="/">
-                            LDC 325 B1, Nepal
-          
-                          </Navbar.Brand>
+                   
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
                       <Navbar.Collapse id="basic-navbar-nav" className=''>
 

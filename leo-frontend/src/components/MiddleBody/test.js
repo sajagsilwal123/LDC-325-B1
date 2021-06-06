@@ -1,11 +1,9 @@
 import React from 'react'
-import {Carousel} from 'react-bootstrap'
 import LDC325B1 from "../../public/images/LDC325B1.png"
 import test from "../../public/images/test.png"
 import css from './hero.css'
 import "./MidCards.css"
 import {Row, Container, Col, Card} from 'react-bootstrap'
-import {Link} from "react-router-dom"
 
 const Test = () => {
     return(

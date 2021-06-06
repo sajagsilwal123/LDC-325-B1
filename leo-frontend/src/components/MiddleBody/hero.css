@@ -2,3 +2,10 @@
     height: 70vh;
     object-fit: cover;
 }
+
+.border-left{
+    border-left: #F2B705 solid 0.5em;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    font-weight: 400;
+}   

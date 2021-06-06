@@ -1,58 +1,73 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItems';
-import { Link } from 'react-router-dom';
 import leo from '../../public/images/leo.png'
+import { Container, Row } from 'react-bootstrap';
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Dummy Dummy Dummy Dummy</h1>
-      <div className='cards__container'>
+    <Container>
+      <div class='text-center'>
+      <h1 class='text-blue'>Our Events</h1>
+      </div>
+      
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
+          <Row>
+            
             <CardItem
               src={leo}
-              text='Dummy Dummy Dummy'
+              date='12  May'
+              text='Lorem pislkasdjflkadf asdfkkjasdklf'
+              title= 'Lorem ipsum'
               path='/ourTeam'
             />
 
             <CardItem
               src={leo}
               text='Dummy Dummy Dummy Dummy Dummy Dummy '
+              title= 'Lorem ipsum'
+              date='12  May'
               path='/PastLeaders'
             />
-                      <CardItem
+            <CardItem
               src={leo}
               text='Dummy Dummy Dummy'
               label='Dummy'
               path='/ourTeam'
+              title= 'Lorem ipsum'
+              date='12  May'
             /> 
-          </ul>
-          <ul className='cards__items'>
             <CardItem
               src={leo}
-              text='Dummy Dummy Dummy Dummy Dummy Dummy'
-              label='Dummy'
-              path='/Resources'
+              date='12  May'
+              text='Lorem pislkasdjflkadf asdfkkjasdklf'
+              title= 'Lorem ipsum'
+              path='/ourTeam'
+            />
+
+            <CardItem
+              src={leo}
+              text='Dummy Dummy Dummy Dummy Dummy Dummy '
+              title= 'Lorem ipsum'
+              date='12  May'
+              path='/PastLeaders'
             />
             <CardItem
               src={leo}
               text='Dummy Dummy Dummy'
               label='Dummy'
               path='/ourTeam'
+              title= 'Lorem ipsum'
+              date='12  May'
             /> 
-                      <CardItem
-              src={leo}
-              text='Dummy Dummy Dummy'
-              label='Dummy'
-              path='/ourTeam'
-            /> 
-          </ul>
+            </Row>
+         
+         
+          
         </div>
-      </div>
-    </div>
-  );
+
+    </Container>
+     );
 }
 
 export default Cards;
