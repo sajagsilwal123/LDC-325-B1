@@ -1,6 +1,7 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
 import LDC325B1 from "../../public/images/LDC325B1.png"
+import DP from "../../public/images/DP.png"
 import leo from "../../public/images/leo.png"
 import test from "../../public/images/test.png"
 import css from './hero.css'
@@ -11,6 +12,7 @@ import {Link} from "react-router-dom"
 const MiddleBody = () => {
     return(
         <div>
+
             <br></br>
             <br></br>
             <br></br>
@@ -99,7 +101,7 @@ const MiddleBody = () => {
                             
                         </Card.Title>
                         <Card.Text>
-                            <h1>Leo District Council 325B1, Nepal</h1>
+
                         </Card.Text>
                         </Card.Body>
                            </div>
@@ -147,25 +149,11 @@ const MiddleBody = () => {
 
                         <Carousel.Item>
                         <Card >
-                            <Card.Img variant="top" src={LDC325B1}/>
+                            <Card.Img variant="top" src={DP}/>
 
                                 <Card.Title>Objectives</Card.Title>
                                 <Card.Text>
-                                The Objectives of LEO are:
-                                <br/>
-                                       <ul>
-                                        <li>
-                                            To promote service activities among youth.                                        
-                                        </li>
-
-                                        <li>
-                                            To Develop Leadership qualities via Experience and Opportunity.                                        
-                                        </li>
-
-                                        <li>
-                                            To Unite youth and promote fellowship                                         
-                                        </li>                                  
-                                      </ul>
+                               
                                 </Card.Text>
                         </Card>
                         </Carousel.Item>

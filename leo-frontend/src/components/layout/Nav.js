@@ -24,7 +24,7 @@ const Navigaiton = () => {
 
                       </Navbar.Brand>
                       <Navbar.Brand href="/">
-                            LDC 325 B1, Nepal
+                            Leo District Council 325 B1, Nepal
           
                           </Navbar.Brand>
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -48,7 +48,7 @@ const Navigaiton = () => {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/enewsletter" className='text-blue'>e-NEWSLETTER</Nav.Link>
+                            <Nav.Link href="/enewsletter" className='text-blue'>DONATE NOW</Nav.Link>
 
                           </Nav>
                           </Navbar.Collapse>

@@ -12,7 +12,7 @@ export default function ImportantDates() {
       <Row className="justify-content-md-center">
 
         <Col xs lg="11">
-        <Table striped bordered hover  variant="light" size='sm'>
+        <Table striped bordered hover  variant="light" size='lg'>
           
 <thead>
     <tr><th>Date </th>
