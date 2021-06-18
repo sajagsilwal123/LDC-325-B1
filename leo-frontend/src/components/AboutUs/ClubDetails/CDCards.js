@@ -13,34 +13,36 @@ function CDCards() {
           <ul className='CDcards__items'>
             <CDCardItem
               src={leo}
+              label='Leo Club Of Kathmandu ABCDEF'
               text='Dummy Dummy Dummy'
             />
 
             <CDCardItem
               src={leo}
+              label='Leo Club Of Kathmandu ABCDEF'
               text='Dummy Dummy Dummy Dummy Dummy Dummy '
             />
                       <CDCardItem
               src={leo}
               text='Dummy Dummy Dummy'
-              label='Dummy'
+              label='Leo Club Of Kathmandu ABCDEF'
             /> 
           </ul>
           <ul className='CDcards__items'>
             <CDCardItem
               src={leo}
               text='Dummy Dummy Dummy Dummy Dummy Dummy'
-              label='Dummy'
+              label='Leo Club Of Kathmandu ABCDEF'
             />
             <CDCardItem
               src={leo}
               text='Dummy Dummy Dummy'
-              label='Dummy'
+              label='Leo Club Of Kathmandu ABCDEF'
             /> 
                       <CDCardItem
               src={leo}
               text='Dummy Dummy Dummy'
-              label='Dummy'
+              label='Leo Club Of Kathmandu ABCDEF'
             /> 
           </ul>
         </div>

@@ -5,7 +5,7 @@ a{
     height:px;
 }
 .text-blue{
-    color: #36209b !important;
+    color: #080225 !important;
     margin-left:0.1em;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ a{
     color: azure;
 }
 .footer-clr:hover{
-    color: burlywood;
+    color: #F2B705;
 }
 
 @media only screen and (max-width: 960) {

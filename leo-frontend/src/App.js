@@ -1,6 +1,7 @@
 import Navigation from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
 import OurTeam from './components/AboutUs/OurTeam/OurTeam';
+import DeveloperTeam from './components/AboutUs/DeveloperTeam/DeveloperTeam'
 import ClubDetails from './components/AboutUs/ClubDetails/ClubDetails';
 import PastLeaders from './components/AboutUs/PastLeaders/PastLeaders';
 import DistrictDirectory from './components/Resources/DistrictDirectory';
@@ -9,7 +10,9 @@ import ImportantDates from './components/Resources/ImportantDates';
 import LeoManual from './components/Resources/LeoManual';
 import FlagSalutation from './components/Resources/FlagSalutation';
 import MoreResources from './components/Resources/MoreResources';
-
+import Enewsletter from "./components/Resources/eNewsletter";
+import DonateNow from "./components/DonateNow/DonateNow";
+import Events from './components/Events/Events'
       
 import {
   BrowserRouter as Router,
@@ -36,7 +39,11 @@ function App() {
             <Route path='/FlagSalutation' component={FlagSalutation} />
             <Route path='/MoreResources' component={MoreResources} />
             <Route path= '/ImportantDates' component={ImportantDates} />
+            <Route path= '/DeveloperTeam' component={DeveloperTeam} />
             <Route path='/LeoManual' component={LeoManual} />
+            <Route path='/enewsletter' component={Enewsletter} />
+            <Route path='/DonateNow' component={DonateNow} />
+            <Route path='/Events' component={Events} />
 
           </Switch>
           <Footer />
