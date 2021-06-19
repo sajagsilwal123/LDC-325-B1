@@ -4,8 +4,9 @@ a{
 .logo{
     height:px;
 }
-.nav-link .text-blue{
-    color: #1755A6 !important;
+.text-blue{
+    color: #080225 !important;
+    margin-left:0.1em;
     text-decoration: none;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -15,7 +16,7 @@ a{
 
 }
 .footer{
-    background-color: #1755A6;
+    background-color: #2f4581;
     min-height: 20em;
     color: white;
     padding: 2em 0 2em 0;
@@ -42,7 +43,7 @@ a{
     color: azure;
 }
 .footer-clr:hover{
-    color: burlywood;
+    color: #F2B705;
 }
 .navbar-light .navbar-nav .nav-link{
     color: #1755A6 !important;

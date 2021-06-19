@@ -1,15 +1,18 @@
 import Navigation from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
-import OurTeam from './components/pages/About Us/OurTeam';
-import ClubDetails from './components/pages/About Us/ClubDetails';
-import PastLeaders from './components/pages/About Us/PastLeaders';
-import DistrictDirectory from './components/pages/Resources/DistrictDirectory';
-import InternationalForms from './components/pages/Resources/InternationalForms';
-import ImportantDates from './components/pages/Resources/ImportantDates';
-import LeoManual from './components/pages/Resources/LeoManual';
-import FlagSalutation from './components/pages/Resources/FlagSalutation';
-import MoreResources from './components/pages/Resources/MoreResources';
-
+import OurTeam from './components/AboutUs/OurTeam/OurTeam';
+import DeveloperTeam from './components/AboutUs/DeveloperTeam/DeveloperTeam'
+import ClubDetails from './components/AboutUs/ClubDetails/ClubDetails';
+import PastLeaders from './components/AboutUs/PastLeaders/PastLeaders';
+import DistrictDirectory from './components/Resources/DistrictDirectory';
+import InternationalForms from './components/Resources/InternationalForms';
+import ImportantDates from './components/Resources/ImportantDates';
+import LeoManual from './components/Resources/LeoManual';
+import FlagSalutation from './components/Resources/FlagSalutation';
+import MoreResources from './components/Resources/MoreResources';
+import Enewsletter from "./components/Resources/eNewsletter";
+import DonateNow from "./components/DonateNow/DonateNow";
+import Events from './components/Events/Events'
       
 import {
   BrowserRouter as Router,
@@ -36,7 +39,11 @@ function App() {
             <Route path='/FlagSalutation' component={FlagSalutation} />
             <Route path='/MoreResources' component={MoreResources} />
             <Route path= '/ImportantDates' component={ImportantDates} />
+            <Route path= '/DeveloperTeam' component={DeveloperTeam} />
             <Route path='/LeoManual' component={LeoManual} />
+            <Route path='/enewsletter' component={Enewsletter} />
+            <Route path='/DonateNow' component={DonateNow} />
+            <Route path='/Events' component={Events} />
 
           </Switch>
           <Footer />

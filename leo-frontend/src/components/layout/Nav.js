@@ -23,7 +23,10 @@ const Navigaiton = () => {
                         <img src={LDC325B1} height="35" style={{marginLeft:'0.4em'}} alt='leo logo'/>
 
                       </Navbar.Brand>
-                   
+                      <Navbar.Brand href="/">
+                            Leo District Council 325 B1, Nepal
+          
+                          </Navbar.Brand>
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
                       <Navbar.Collapse id="basic-navbar-nav" className=''>
 
@@ -35,6 +38,8 @@ const Navigaiton = () => {
                                 <NavDropdown.Item href="/OurTeam" className='text-blue'>Our team </NavDropdown.Item>
                                 <NavDropdown.Item href="/PastLeaders" className='text-blue'>Past Leaders</NavDropdown.Item>
                                 <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
+                                <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Developer Team</NavDropdown.Item>
+
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
                             <NavDropdown title="RESOURCES" id="collasible-nav-dropdown" className='text-blue'>
@@ -42,10 +47,11 @@ const Navigaiton = () => {
                                 <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
                                 <NavDropdown.Item href="/LeoManual" className='text-blue'>Training Manual</NavDropdown.Item>
                                 <NavDropdown.Item href="/FlagSalutation" className='text-blue'>Flag Salutation</NavDropdown.Item>
+                                <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/enewsletter" className='text-blue'>e-NEWSLETTER</Nav.Link>
+                            <Nav.Link href="/DonateNow" className='text-blue'>DONATE NOW</Nav.Link>
 
                           </Nav>
                           </Navbar.Collapse>
