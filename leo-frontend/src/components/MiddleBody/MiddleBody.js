@@ -8,7 +8,6 @@ const MiddleBody = () => {
     return(
         <div class="my-5 py-5">
             <Join />
-
            <Believe />
         </div>                          
 

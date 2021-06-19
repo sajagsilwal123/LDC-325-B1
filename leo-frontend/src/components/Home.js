@@ -1,7 +1,7 @@
 import Hero from "./body/Hero";
 import Cards from "./Card/Cards"
 import MiddleBody from "../components/MiddleBody/MiddleBody"
-import Test from "../components/MiddleBody/test"
+import Testimonial from "../components/MiddleBody/Testimonial"
 
 
 function Home() {
@@ -10,6 +10,7 @@ function Home() {
       <Hero />
       <MiddleBody/>
       <Cards/>
+      <Testimonial />
     </div>
   );
 }
