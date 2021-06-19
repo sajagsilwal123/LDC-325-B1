@@ -9,7 +9,7 @@ function Join(){
         <Container className='mb-5 pb-5'>
             <Row>
                 <Col>
-                   <div class='display-2 text-yellow'>
+                   <div class='text-yellow hero-font'>
                        A Leo, <br></br>
                        A Change,<br></br>
                        And You.<br></br>
@@ -22,7 +22,7 @@ function Join(){
                 </Col>
                 <Col>
                 <center>
-                <img src={leo} height='400px' />
+                <img src={leo} height='350px' />
 
                 </center>
                 </Col>
