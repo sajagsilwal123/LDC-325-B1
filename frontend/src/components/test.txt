@@ -1,0 +1,22 @@
+<Container>
+      <br/>
+      <br/>
+      <br/>
+      <Row className="justify-content-md-center">
+        <Col xs lg="11">
+            <Document
+            file={window.location.origin + test}
+            onLoadSuccess={onDocumentLoadSuccess}
+            onLoadError={onLoadError}
+            onSourceError={onSourceError}
+            >
+            {[...Array(numPages).keys()].map((p) => (
+                <Page pageNumber={p + 1} />
+            ))}
+            </Document>        
+        </Col>
+      </Row>
+      <br/>
+      <br/>
+      <br/>
+    </Container>

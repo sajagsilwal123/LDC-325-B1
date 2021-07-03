@@ -1,0 +1,24 @@
+.color{
+  color:red;
+}
+
+.carousel-image{
+  height: 70vh;
+  object-fit: cover;
+}
+
+.border-leftt{
+  border-left: #F2B705 solid 0.6em;
+  border-right: #F2B705 solid 0.6em;
+  margin-top: 0px;
+  margin-bottom: 0em;
+  font-weight: 400;
+}   
+
+.hero-font{
+  font-size: 3em;
+}
+
+.colour{
+  color:#0f40e0;
+}
