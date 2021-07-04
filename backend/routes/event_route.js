@@ -72,6 +72,7 @@ router.put('/event/update/:id',function (req, res) {
 
 //gets all info
 router.get('/event/all', function (req, res) {
+    console.log("/event/al");
     event.find().then(function(data){
         console.log(data)
         res.status(200).json({

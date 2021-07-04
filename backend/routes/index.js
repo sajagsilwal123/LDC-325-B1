@@ -10,5 +10,6 @@ router.use('/', require('./event_route'));
 router.use('/', require('./activity_route'));
 router.use('/', require('./subscribe_route'));
 router.use('/', require('./team_route'));
+router.use('/', require('./payment_route'));
 
 module.exports = router;

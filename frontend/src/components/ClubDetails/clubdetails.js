@@ -23,7 +23,7 @@ class ClubDetail extends Component {
 
     fileHandler = (e) => {
         this.setState({
-          image: e.target.files[0]
+            image: e.target.files[0]
         })
     }
     changeHandler = (e) => {

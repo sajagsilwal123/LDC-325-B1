@@ -13,6 +13,8 @@ import MoreResources from './components/Resources/MoreResources';
 import Enewsletter from "./components/Resources/eNewsletter";
 import DonateNow from "./components/DonateNow/DonateNow";
 import Events from './components/Events/Events'
+import DonationFailure from './components/DonateNow/pages/failure';
+import DonationSuccess from './components/DonateNow/pages/success';
       
 import {
   BrowserRouter as Router,
@@ -47,6 +49,8 @@ function App() {
             <Route path='/LeoManual' component={LeoManual} />
             <Route path='/enewsletter' component={Enewsletter} />
             <Route path='/DonateNow' component={DonateNow} />
+            <Route path='/DonationFailure' component={DonationFailure} />
+            <Route path='/DonationSuccess' component={DonationSuccess} />
             <Route path='/Events' component={Events} />
             <Route path='/login' component={Login} />
             <Route path='/createevent' component={CreateEvents} />
