@@ -4,13 +4,13 @@ import { FaPlusCircle } from 'react-icons/fa'
 import axios from 'axios'
 
 
-class ClubDetail extends Component {
+class CreateClubs extends Component {
 
     state = {
 
-      image: "",
-        title:"",
-        details: '',
+        topic: "",
+        Allimages: '',
+        description: "",
 
         config: {
             headers: { 'authorization': `Bearer ${localStorage.getItem('token')}` }
@@ -23,7 +23,7 @@ class ClubDetail extends Component {
 
     fileHandler = (e) => {
         this.setState({
-            image: e.target.files[0]
+          Allimages: e.target.files[0]
         })
     }
     changeHandler = (e) => {
@@ -31,17 +31,16 @@ class ClubDetail extends Component {
             [e.target.name]: e.target.value
         })
     }
-    Clubdetails = (e) => {
+    createClub = (e) => {
         e.preventDefault(); //prevents from reloading page
         const data = new FormData()
-        data.append("image", this.state.image)
-        data.append("title", this.state.title)
-        data.append("details", this.state.details)
-    
+        data.append("topic", this.state.topic)
+        data.append("Allimages", this.state.Allimages)
+        data.append("description", this.state.description)
 
 
         // prevents from reloading page
-        axios.post("http://localhost:5000/event/create", data)
+        axios.post("http://localhost:5000/activity/insert", data)
             .then(
                 (response) => {
                     console.log(response)
@@ -64,7 +63,7 @@ class ClubDetail extends Component {
       {
 
       if (localStorage.getItem('token') && localStorage.getItem('userType') === 'Admin') {
-            var clubdetails =
+            var createpromo =
 
                 <div className="container-fluid">
                         <div className="col" style={{ marginTop: '10px', marginBottom: '10px' }}>
@@ -75,27 +74,24 @@ class ClubDetail extends Component {
 
                                     <form>
                                         <div className="form-group">
-                                            <label>Title</label>
-                                            <input type="text" className="form-control" name="title" value={this.state.title} onChange={this.changeHandler} required />
+                                            <label>Topic</label>
+                                            <input type="text" className="form-control" name="topic" value={this.state.eventName} onChange={this.changeHandler} required />
 
                                         </div>
-
-                                  
-
 
                                         <div className="form-group">
                                             <label for="img">Image</label>
-                                            <input type="file" name="image" className="form-control" onChange={this.fileHandler} accept="image/*" required />
+                                            <input type="file" name="Allimages" className="form-control" onChange={this.fileHandler} accept="image/*" required />
 
                                         </div>
 
                                         <div className="form-group">
-                                            <label>Club Details</label>
-                                            <input type="text" className="form-control" name="details" value={this.state.details} onChange={this.changeHandler} required />
+                                            <label>Description</label>
+                                            <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.changeHandler} required />
 
                                         </div>
 
-                                        <button type="submit" onClick={this.Clubdetails} className="btn btn-primary"><FaPlusCircle /> Add club Details</button>
+                                        <button type="submit" onClick={this.createClub} className="btn btn-primary"><FaPlusCircle /> Add Club</button>
                                     </form>
 
 
@@ -115,13 +111,13 @@ class ClubDetail extends Component {
 
 
             <div>
-                {clubdetails}
+                {createpromo}
             </div>
 
         )
     }
 }
-export default ClubDetail
+export default CreateClubs
 
 
 

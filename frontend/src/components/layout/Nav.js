@@ -68,7 +68,7 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/DonateNow" className='text-blue'>Pay with eSewa</Nav.Link>
+                            <Nav.Link href="/DonateNow" className='text-blue'>DONATE NOW</Nav.Link>
                             <Nav.Link to="/logout" className='text-blue' onClick={this.logout}>LOGOUT</Nav.Link>
 
                           </Nav>
@@ -124,8 +124,8 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/DonateNow" className='text-blue'>Pay with eSewa</Nav.Link>
-                            {/* <Nav.Link href="/login" className='text-blue'>Login/Register</Nav.Link> */}
+                            <Nav.Link href="/DonateNow" className='text-blue'>DONATE NOW</Nav.Link>
+                            <Nav.Link href="/login" className='text-blue'>Login/Register</Nav.Link>
 
                           </Nav>
                           </Navbar.Collapse>

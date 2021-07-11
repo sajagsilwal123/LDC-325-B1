@@ -1,37 +1,42 @@
 import React from 'react';
-import './CDCards.css';
 import { Link } from 'react-router-dom';
-import {Col,Row} from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
+import './CDCards.css';
 
-function CDCardItem(props) {
+function EventsCardItem(props) {
   return (
-    <>
-      <li className='CDcards__item'>
-          <Link className='CDcards__item__link' to={props.path}>
-            <figure className='CDcards__item__pic-wrap'>
-              <img
-                className='CDcards__item__img'
-                alt='Travel Image'
-                src={props.src}
-              />
-            </figure>
-            <Row className='CDcards__item__text py-3 px-3'>
+    <Col sm={4} className='mt-4'>
+        <Link className='cards__item__link' to={props.path}>
+          <figure className='cards__item__pic-wrap' data-category={props.label}>
+            <img
+              className='cards__item__img'
+              alt='Travel Image'
+              src={props.src}
+            />
+          </figure>
+          <Row className='cards__item__text py-3 px-3'>
+            <Col sm={4}>
+              <div className='h3 text-center text-yellow pt-4' >
+                <div className='color'>
+                    {props.date}
+                </div>
+            
 
-                <h4 class="text-dark">{props.title}</h4>
-                <p class='text-secondary'>
-                {props.text}
+              </div>
+            </Col>
+            <Col sm={8}>
+              <h3 class="text-dark">{props.title}</h3>
+              <p class='text-secondary'>
+              {props.text}
+              </p>
 
-                </p>
-
-            </Row>
-          </Link>
-      </li>
-    </>
+            </Col>
+          </Row>
+        </Link>
+    </Col>
   );
 }
 
-
-
-export default CDCardItem;
+export default EventsCardItem;
 
 

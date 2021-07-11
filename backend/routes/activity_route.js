@@ -10,7 +10,6 @@ const upload = require('../middleware/upload')
 
 //inserting product here
 router.post('/activity/insert', upload.single('Allimages'), function (req, res) {
-    // console.log(req.file);
     if (req.file == undefined) {
         return res.status(400).json({ message: "Invalid" })
     }
@@ -19,7 +18,7 @@ router.post('/activity/insert', upload.single('Allimages'), function (req, res) 
     const description = req.body.description;
 
 
-    const activitydata = new activityData({
+    const activitydata = new Activity({
         topic: topic,image: image,
         description: description
     })

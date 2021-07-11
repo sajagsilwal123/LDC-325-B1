@@ -10,7 +10,7 @@ class CreateEvents extends Component {
 
       eventName: "",
         eventFee:"",
-        eventImage: '',
+        Allimages: '',
         eventDescription: "",
 
         config: {
@@ -24,7 +24,7 @@ class CreateEvents extends Component {
 
     fileHandler = (e) => {
         this.setState({
-          eventImage: e.target.files[0]
+          Allimages: e.target.files[0]
         })
     }
     changeHandler = (e) => {
@@ -37,7 +37,7 @@ class CreateEvents extends Component {
         const data = new FormData()
         data.append("eventName", this.state.eventName)
         data.append("eventFee", this.state.eventFee)
-        data.append("eventImage", this.state.eventImage)
+        data.append("Allimages", this.state.Allimages)
         data.append("eventDescription", this.state.eventDescription)
 
 
@@ -90,7 +90,7 @@ class CreateEvents extends Component {
 
                                         <div className="form-group">
                                             <label for="img">Image</label>
-                                            <input type="file" name="eventImage" className="form-control" onChange={this.fileHandler} accept="image/*" required />
+                                            <input type="file" name="Allimages" className="form-control" onChange={this.fileHandler} accept="image/*" required />
 
                                         </div>
 

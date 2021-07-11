@@ -13,9 +13,7 @@ import MoreResources from './components/Resources/MoreResources';
 import Enewsletter from "./components/Resources/eNewsletter";
 import DonateNow from "./components/DonateNow/DonateNow";
 import Events from './components/Events/Events'
-import DonationFailure from './components/DonateNow/pages/failure';
-import DonationSuccess from './components/DonateNow/pages/success';
-      
+import EventSingle from "./components/Events/EventsSingle";
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,8 +24,7 @@ import Login from "./components/pages/login";
 import CreateEvents from "./components/CreateEvent/createevent";
 import Ourteam from "./components/OurTeam/ourteam";
 import ClubDetail from "./components/ClubDetails/clubdetails";
-
-
+import ClubSingle from "./components/AboutUs/ClubDetails/ClubSingle";
 function App() {
   return (
     <div className="App">
@@ -49,13 +46,13 @@ function App() {
             <Route path='/LeoManual' component={LeoManual} />
             <Route path='/enewsletter' component={Enewsletter} />
             <Route path='/DonateNow' component={DonateNow} />
-            <Route path='/DonationFailure' component={DonationFailure} />
-            <Route path='/DonationSuccess' component={DonationSuccess} />
             <Route path='/Events' component={Events} />
+            <Route path='/event/single/:_id' component={EventSingle} />
+            <Route path='/card/single/:_id' component={ClubSingle} />
             <Route path='/login' component={Login} />
             <Route path='/createevent' component={CreateEvents} />
             <Route path='/ourteams' component={Ourteam} />
-             <Route exact path='/club' component={ClubDetail} />
+            <Route exact path='/club' component={ClubDetail} />
 
 
           </Switch>
