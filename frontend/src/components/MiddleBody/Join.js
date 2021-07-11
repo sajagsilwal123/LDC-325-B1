@@ -1,7 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import leo from '../../public/images/leo.png'
+import LDC325B1 from '../../public/images/LDC325B1.png'
+import { Link } from 'react-router-dom';
 import './hero.css'
+
 
 function Join(){
     return(
@@ -14,17 +17,24 @@ function Join(){
                        A Change,<br></br>
                        And You.<br></br>
                    </div>
-                    <button className='btn btn-primary mt-5'>
-                            <div className='h4 pt-2 px-5'>
-                                Join the Change
+                   <a href="https://www.lionsclubs.org/en/resources-for-members/resource-center/start-a-leo-club" target="_blank">
+                       <button className='btn btn-primary mt-5'>
+                            <div className='h4 pt-2 px-5'>                                
+                                Join The Change                            
                             </div>
                     </button>
+                   </a>
+                    
                 </Col>
                 <Col>
-                <center>
-                <img src={leo} height='350px' />
-
-                </center>
+                    <center>
+                        <img src={leo} height='300px' />
+                    </center>
+                </Col>
+                <Col>
+                    <center>
+                        <img src={LDC325B1} height='300px' />
+                    </center>
                 </Col>
             </Row>
            
