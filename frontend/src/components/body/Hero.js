@@ -41,8 +41,6 @@ const Hero = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Dummy Dummy</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

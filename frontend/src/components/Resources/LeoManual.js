@@ -1,51 +1,27 @@
 
 import React, {useState} from 'react';
-import {Document, Page} from 'react-pdf';
-import { pdfjs } from 'react-pdf';
 import {Table, Container, Col, Row} from 'react-bootstrap';
-import test from "./../Resources/test.pdf"
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import pdf from "./../Resources/test.pdf"
 
 const LeoManual = ({url}) => {
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-  
-    function onDocumentLoadSuccess({ numPages }) {
-      setNumPages(numPages);
-    }
-   function onLoadError(error) {
-     console.log(error);
-   }
-  
-   function onSourceError(error) {
-     console.log(error);
-   }
-  
-    return (
-      <div>
-        <Container>
 
-          <br/>
-          <Row className="justify-content-md-center">
-            <Col lg="8">
-                <Document
-                file={window.location.origin + test}
-                onLoadSuccess={onDocumentLoadSuccess}
-                onLoadError={onLoadError}
-                onSourceError={onSourceError}
-                >
-                {[...Array(numPages).keys()].map((p) => (
-                    <Page pageNumber={p + 1} />
-                ))}
-                </Document>        
-            </Col>
-          </Row>
-          <br/>
-          <br/>
-          <br/>
-      </Container>
-      </div>
+  const onZoom = (e) => {
+    console.log(`Zoom to \${e.scale}`);
+  };
+    return (
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+        <div
+          style={{
+              border: '1px solid rgba(0, 0, 0, 0.3)',
+              height: '750px',
+          }}
+        >
+          <Viewer fileUrl={pdf} onZoom={onZoom} />
+        </div>
+      </Worker>
     );
   };
   

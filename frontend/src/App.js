@@ -20,6 +20,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect,
 } from "react-router-dom";
 import { Container } from 'reactstrap';
 import Home from "./components/Home";
@@ -60,7 +61,6 @@ function App() {
             <Route path='/ourteams' component={Ourteam} />
             <Route exact path='/club' component={ClubDetail} />
             </Container>
-
 
           </Switch>
           <Footer />

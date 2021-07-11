@@ -3,6 +3,10 @@ import EventsCards from "./EventsCards"
 import axios from "axios";
 import React, {useState} from "react";
 import renderHTML from 'react-render-html';
+import {
+    Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle, Button
+  } from 'reactstrap';
 
 function EventSingle(props) {
     let [responseData, setResponseData] = useState("");
@@ -22,23 +26,28 @@ function EventSingle(props) {
     }, []);
     React.useEffect(() => {
         fetchData();
-      }, [fetchData]);
-  return (
+    }, [fetchData]);
+
+    const formatDate = (dateString) => {
+        const options = { year: "numeric", month: "long", day: "numeric" }
+        let t = new Date(dateString);
+        return t.toLocaleDateString(undefined, options) + ' ' + t.toLocaleTimeString();
+    }
+    
+return (
     <div className="App">
         { responseData &&
             <>
-            {/* {responseData._id}<br></br> */}
-            {responseData.eventName}<br></br>
-            {responseData.eventDate}<br></br>
-            
-            {/* {responseData.eventDescription}<br></br> */}
-            {renderHTML(responseData.eventDescription)}
-            <img src={"http://localhost:5000/" + responseData.eventImage}/><br></br>
+            <h1>{responseData.eventName}</h1> <br/>
+            <h5>{formatDate(responseData.eventDate)}</h5>
+            <Card>
+                <CardImg top width="100%" src={"http://localhost:5000/" + responseData.eventImage} alt="Card image cap" />
+                {renderHTML(responseData.eventDescription)}
+            </Card>
             </>
-           
         }
     </div>
-  );
+);
 }
 
 export default EventSingle;

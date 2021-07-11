@@ -40,10 +40,6 @@ class Navigaiton extends React.Component {
                         <img src={LDC325B1} height="35" style={{marginLeft:'0.4em'}} alt='leo logo'/>
 
                       </Navbar.Brand>
-                      <Navbar.Brand href="/">
-                            Leo District Council 325 B1, Nepal
-          
-                          </Navbar.Brand>
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
                       <Navbar.Collapse id="basic-navbar-nav" className=''>
 
@@ -84,11 +80,11 @@ class Navigaiton extends React.Component {
            menu =
 
             <div class='mb-3' >
-         
-            <Navbar variant='light' expand="lg">
-                      
-                      <Container className="border-yellow">
-                      
+            <Container>
+              Leo District Council 325 B1, Nepal
+            </Container>
+            <Navbar variant='light' expand="lg"  style={{paddingTop:'0'}}>
+                      <Container className="border-yellow" style={{marginTop:'0'}} >  
                       <Navbar.Brand href="/">
                         <img src={flag} className={css.logo} height="40" alt='lions logo' />     
                         <img src={lions} className={css.logo} height="40" style={{marginLeft:'0.4em'}} alt='lions logo' /> 
@@ -96,10 +92,7 @@ class Navigaiton extends React.Component {
                         <img src={LDC325B1} height="35" style={{marginLeft:'0.4em'}} alt='leo logo'/>
 
                       </Navbar.Brand>
-                      <Navbar.Brand href="/">
-                            Leo District Council 325 B1, Nepal
-          
-                          </Navbar.Brand>
+
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
                       <Navbar.Collapse id="basic-navbar-nav" className=''>
 
@@ -125,7 +118,6 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/DonateNow" className='text-blue'>DONATE NOW</Nav.Link>
-                            <Nav.Link href="/login" className='text-blue'>Login/Register</Nav.Link>
 
                           </Nav>
                           </Navbar.Collapse>
