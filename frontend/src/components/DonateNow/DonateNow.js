@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Row, Col, Card, CardBody} from 'reactstrap';
 let paymentHelper = require('../../helpers/payment_helper');
 
 export default function DonateNow() {
@@ -18,11 +18,12 @@ export default function DonateNow() {
   }
 
   return (
-    <Row>
-      <Col md="6" lg="6">
-        <div class="container">
-            <FormGroup>
-              <Label for="amount">Amount</Label>
+    <div>
+      <h3>Pay with eSewa</h3> <br/>
+      <Card>
+        <CardBody>
+          <FormGroup>
+            <Label for="amount">Amount</Label>
               <Input id="amount" name="tAmt" type="number" onChange={handleChange}/>
             </FormGroup>
             <FormGroup>
@@ -33,11 +34,12 @@ export default function DonateNow() {
               <Label for="remarks">Remarks</Label>
               <Input id="remarks" name="remarks" type="text" onChange={handleChange} />
             </FormGroup>
-
             <br/>
             <Button onClick={() => paymentHelper.pay(amount, club, remarks)}>Pay</Button>
-        </div>
-      </Col>
-    </Row>
+        </CardBody>
+        <br/>
+      </Card>
+    <br/>
+    </div>
   );
 } 

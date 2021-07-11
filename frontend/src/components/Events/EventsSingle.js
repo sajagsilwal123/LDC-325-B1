@@ -42,8 +42,11 @@ return (
             <h5>{formatDate(responseData.eventDate)}</h5>
             <Card>
                 <CardImg top width="100%" src={"http://localhost:5000/" + responseData.eventImage} alt="Card image cap" />
-                {renderHTML(responseData.eventDescription)}
+                    <CardBody>
+                        <CardText>{renderHTML(responseData.eventDescription)}</CardText>
+                    </CardBody>
             </Card>
+            <br/>
             </>
         }
     </div>
