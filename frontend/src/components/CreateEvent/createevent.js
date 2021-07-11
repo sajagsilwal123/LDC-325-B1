@@ -1,14 +1,15 @@
-import { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { FaPlusCircle } from 'react-icons/fa'
-import axios from 'axios'
-
+import axios from 'axios';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 class CreateEvents extends Component {
 
     state = {
 
-      eventName: "",
+        eventName: "",
         eventFee:"",
         Allimages: '',
         eventDescription: "",
@@ -16,22 +17,27 @@ class CreateEvents extends Component {
         config: {
             headers: { 'authorization': `Bearer ${localStorage.getItem('token')}` }
         }
-    
-
-
     }
 
 
     fileHandler = (e) => {
         this.setState({
-          Allimages: e.target.files[0]
+            Allimages: e.target.files[0]
         })
     }
+
     changeHandler = (e) => {
         this.setState({
             [e.target.name]: e.target.value
         })
     }
+
+    changeCKHandler = (data) => {
+        this.setState({
+            ['eventDescription']: data
+        })
+    }
+
     createEvent = (e) => {
         e.preventDefault(); //prevents from reloading page
         const data = new FormData()
@@ -82,8 +88,8 @@ class CreateEvents extends Component {
                                         </div>
 
                                         <div className="form-group">
-                                            <label>Fee</label>
-                                            <input type="number" className="form-control" name="eventFee" value={this.state.eventFee} onChange={this.changeHandler} required />
+                                            <label>Event Date</label>
+                                            <input type="datetime-local" className="form-control" name="eventFee" value={this.state.eventFee} onChange={this.changeHandler} required />
 
                                         </div>
 
@@ -96,7 +102,26 @@ class CreateEvents extends Component {
 
                                         <div className="form-group">
                                             <label>Description</label>
-                                            <input type="text" className="form-control" name="eventDescription" value={this.state.eventDescription} onChange={this.changeHandler} required />
+                                            {/* <input type="text" className="form-control" name="eventDescription" value={this.state.eventDescription} onChange={this.changeHandler} required /> */}
+                                            <CKEditor
+                                                name="eventDescription" 
+                                                value={this.state.eventDescription} 
+                                                // onChange={this.changeHandler}
+                                                editor={ ClassicEditor }
+                                                onReady={ editor => {
+                                                    
+                                                } }
+                                                onChange={ ( event, editor ) => {
+                                                    const data = editor.getData();
+                                                    this.changeCKHandler(data);
+                                                } }
+                                                onBlur={ ( event, editor ) => {
+                                                    console.log( 'Blur.', editor );
+                                                } }
+                                                onFocus={ ( event, editor ) => {
+                                                    console.log( 'Focus.', editor );
+                                                } }
+                                            />
 
                                         </div>
 
@@ -127,21 +152,3 @@ class CreateEvents extends Component {
     }
 }
 export default CreateEvents
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

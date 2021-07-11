@@ -14,7 +14,6 @@ const Team = mongoose.model('Team', {
         type: String,
         required: true
     },
-   
 })
 
 module.exports = Team;

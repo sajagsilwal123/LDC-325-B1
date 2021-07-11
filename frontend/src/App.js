@@ -14,11 +14,14 @@ import Enewsletter from "./components/Resources/eNewsletter";
 import DonateNow from "./components/DonateNow/DonateNow";
 import Events from './components/Events/Events'
 import EventSingle from "./components/Events/EventsSingle";
+import DonationFailure from './components/DonateNow/pages/failure';
+import DonationSuccess from './components/DonateNow/pages/success';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+import { Container } from 'reactstrap';
 import Home from "./components/Home";
 import Login from "./components/pages/login";
 import CreateEvents from "./components/CreateEvent/createevent";
@@ -34,6 +37,7 @@ function App() {
 
           <Switch>
             <Route path='/' exact component={Home} />
+            <Container>
             <Route path='/OurTeam' component={OurTeam} />
             <Route path='/ClubDetails' component={ClubDetails} />
             <Route path='/PastLeaders' component={PastLeaders} />
@@ -46,6 +50,8 @@ function App() {
             <Route path='/LeoManual' component={LeoManual} />
             <Route path='/enewsletter' component={Enewsletter} />
             <Route path='/DonateNow' component={DonateNow} />
+            <Route path='/DonationFailure' component={DonationFailure} />
+            <Route path='/DonationSuccess' component={DonationSuccess} />
             <Route path='/Events' component={Events} />
             <Route path='/event/single/:_id' component={EventSingle} />
             <Route path='/card/single/:_id' component={ClubSingle} />
@@ -53,6 +59,7 @@ function App() {
             <Route path='/createevent' component={CreateEvents} />
             <Route path='/ourteams' component={Ourteam} />
             <Route exact path='/club' component={ClubDetail} />
+            </Container>
 
 
           </Switch>

@@ -17,11 +17,11 @@ router.post('/event/create', upload.single('Allimages'), function (req, res) {
     const eventDescription = req.body.eventDescription;
 
     const me = new event({
-        eventName: eventName, eventFee: eventFee, eventImage: eventImage,
+        eventName: eventName, eventDate: eventFee, eventImage: eventImage,
         eventDescription: eventDescription
     })
 
-   me.save().then(function (result) {
+    me.save().then(function (result) {
         res.status(201).json({ message: "Event has been created successfully !!!" });
     }).catch(function (err) {
         res.status(500).json({ message: err })
@@ -50,7 +50,7 @@ router.put('/event/update/:id',function (req, res) {
     const eventImage = req.body.eventImage
     const eventDescription = req.body.eventDescription
     
-  event.updateOne({_id: id}, {eventName: eventName}).then(function (result) {
+    event.updateOne({_id: id}, {eventName: eventName}).then(function (result) {
         res.status(200).json({ message: "event has been updated" }) 
     })
         event.updateOne({_id: id}, {eventFee: eventFee}).then(function (result) {
@@ -72,10 +72,9 @@ router.put('/event/update/:id',function (req, res) {
 
 //gets all info
 router.get('/event/all', function (req, res) {
-    event.find().then(function(data){
-        console.log(data)
+    event.paginate({}, { page: 1, limit: 2, sort: { eventDate: 1 }, }, function(err, result) {
         res.status(200).json({
-            eventData: data
+            eventData: result
         })
     }).catch(function (e) {
         res.status(500).json(e)
