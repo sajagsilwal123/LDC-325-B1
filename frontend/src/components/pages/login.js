@@ -49,8 +49,8 @@ class Login extends React.Component {
     }
 
     render() {
-        if (this.state.checkLogin === true) {
-            return window.location.href = "/dashboard"
+        if (this.state.checkLogin === true || (localStorage.getItem('token') && localStorage.getItem('userType') === 'Admin')) {
+            return window.location.href = "/admin"
 
         }
 

@@ -16,6 +16,7 @@ import Events from './components/Events/Events'
 import EventSingle from "./components/Events/EventsSingle";
 import DonationFailure from './components/DonateNow/pages/failure';
 import DonationSuccess from './components/DonateNow/pages/success';
+import Admin from './admin/admin';
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,10 +33,8 @@ import ClubSingle from "./components/AboutUs/ClubDetails/ClubSingle";
 function App() {
   return (
     <div className="App">
-
         <Router>
         <Navigation />          
-
           <Switch>
             <Route path='/' exact component={Home} />
             <Container>
@@ -57,11 +56,11 @@ function App() {
             <Route path='/event/single/:_id' component={EventSingle} />
             <Route path='/card/single/:_id' component={ClubSingle} />
             <Route path='/login' component={Login} />
-            <Route path='/createevent' component={CreateEvents} />
-            <Route path='/ourteams' component={Ourteam} />
-            <Route exact path='/club' component={ClubDetail} />
+            <Route path='/admin' component={Admin} />
+            <Route path='/admin/ourteams' component={Ourteam} />
+            <Route path='/admin/createevent' component={CreateEvents} />
+            <Route exact path='/admin/club' component={ClubDetail} />
             </Container>
-
           </Switch>
           <Footer />
 

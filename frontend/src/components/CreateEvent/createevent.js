@@ -68,9 +68,9 @@ class CreateEvents extends Component {
 
 
     render() {
-      {
+    {
 
-      if (localStorage.getItem('token') && localStorage.getItem('userType') === 'Admin') {
+    if (localStorage.getItem('token') && localStorage.getItem('userType') === 'Admin') {
             var createpromo =
 
                 <div className="container-fluid">
@@ -131,15 +131,13 @@ class CreateEvents extends Component {
 
 
                                 </div>
-
-                           
                         </div>
 
                     </div>
                 </div>
         
     }
-  }
+}
         return (
 
 
