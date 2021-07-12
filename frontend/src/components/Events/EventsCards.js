@@ -75,6 +75,7 @@ function EventsCards() {
                   ))}
                 </>
               )}
+              { responseData.pages > 1 &&
                 <Pagination>
                   <PaginationItem disabled={(responseData.page == 1)? 'disabled' : ''}>
                     <PaginationLink first onClick={() =>  handlePageChange(1)} 
@@ -93,6 +94,7 @@ function EventsCards() {
                     />
                   </PaginationItem>
                 </Pagination>
+              }
               </tbody>
               </Table>
           </div>

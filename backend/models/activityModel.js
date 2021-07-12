@@ -1,20 +1,22 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
+var mongoosePaginate = require('mongoose-paginate');
 
-const Activity = mongoose.model('Activity', {
+let ActivitySchema = new mongoose.Schema({
     topic: {
         type: String,
         required: true
     },
 
-    image: {
-        type: String,
-        required: true
-    },
+    image: String,
+
     description: {
         type: String,
         required: true
-    },
-   
-})
+    }
+}, { timestamps: true, usePushEach: true });
+
+ActivitySchema.plugin(mongoosePaginate);
+
+const Activity = mongoose.model('Activity', ActivitySchema);
 
 module.exports = Activity;
