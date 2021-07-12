@@ -30,9 +30,9 @@ function CDCards() {
   }, [fetchData]);
   const handlePageChange = (pageNumber) => {
     console.log(`active page is ${pageNumber}`);
-     setActivePage(pageNumber)
+      setActivePage(pageNumber)
   }
- 
+
   return (
     <div className="CDCards">
       <h1>Club Details</h1>
@@ -51,7 +51,6 @@ function CDCards() {
                     />
                   </>
                 ))}
-
                 <Pagination
                   activePage="0"
                   itemsCountPerPage={10}

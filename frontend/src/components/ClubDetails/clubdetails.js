@@ -60,9 +60,9 @@ class CreateClubs extends Component {
 
 
     render() {
-      {
+    {
 
-      if (localStorage.getItem('token') && localStorage.getItem('userType') === 'Admin') {
+        if (localStorage.getItem('token') && localStorage.getItem('userType') === 'Admin') {
             var createpromo =
 
                 <div className="container-fluid">
@@ -70,42 +70,39 @@ class CreateClubs extends Component {
                             <div className="card">
 
                                 <div className="card-body">
-                                    <h2 className="card-title">Please fill details here</h2>
+                                    <h2 className="card-title">Club Details</h2>
 
                                     <form>
                                         <div className="form-group">
-                                            <label>Topic</label>
+                                            <label>Club Name</label>
                                             <input type="text" className="form-control" name="topic" value={this.state.eventName} onChange={this.changeHandler} required />
 
                                         </div>
-
+                                        <br/>
                                         <div className="form-group">
                                             <label for="img">Image</label>
                                             <input type="file" name="Allimages" className="form-control" onChange={this.fileHandler} accept="image/*" required />
 
                                         </div>
-
+                                        <br/>
                                         <div className="form-group">
                                             <label>Description</label>
                                             <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.changeHandler} required />
-
                                         </div>
-
+                                        <br/>
                                         <button type="submit" onClick={this.createClub} className="btn btn-primary"><FaPlusCircle /> Add Club</button>
                                     </form>
 
 
 
                                 </div>
-
-                           
                         </div>
 
                     </div>
                 </div>
         
     }
-  }
+}
         return (
 
 

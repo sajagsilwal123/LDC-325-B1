@@ -78,28 +78,27 @@ class CreateEvents extends Component {
                             <div className="card">
 
                                 <div className="card-body">
-                                    <h2 className="card-title">Please fill details here</h2>
+                                    <h2 className="card-title">Create Event</h2>
 
                                     <form>
                                         <div className="form-group">
-                                            <label>Name</label>
+                                            <label>Event Name</label>
                                             <input type="text" className="form-control" name="eventName" value={this.state.eventName} onChange={this.changeHandler} required />
 
                                         </div>
-
+                                        <br/>
                                         <div className="form-group">
                                             <label>Event Date</label>
                                             <input type="datetime-local" className="form-control" name="eventFee" value={this.state.eventFee} onChange={this.changeHandler} required />
 
                                         </div>
-
-
+                                        <br/>
                                         <div className="form-group">
                                             <label for="img">Image</label>
                                             <input type="file" name="Allimages" className="form-control" onChange={this.fileHandler} accept="image/*" required />
 
                                         </div>
-
+                                        <br/>
                                         <div className="form-group">
                                             <label>Description</label>
                                             {/* <input type="text" className="form-control" name="eventDescription" value={this.state.eventDescription} onChange={this.changeHandler} required /> */}
@@ -124,7 +123,7 @@ class CreateEvents extends Component {
                                             />
 
                                         </div>
-
+                                        <br/>
                                         <button type="submit" onClick={this.createEvent} className="btn btn-primary"><FaPlusCircle /> Add Event</button>
                                     </form>
 

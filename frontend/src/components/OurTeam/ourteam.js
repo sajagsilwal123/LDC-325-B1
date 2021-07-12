@@ -93,7 +93,7 @@ class Ourteam extends Component {
                             <div className="card">
 
                                 <div className="card-body">
-                                    <h2 className="card-title">Please fill details here</h2>
+                                    <h2 className="card-title">District Team</h2>
 
                                     <form>
                                         <div className="form-group">
@@ -101,29 +101,25 @@ class Ourteam extends Component {
                                             <input type="text" className="form-control" name="name" value={this.state.name} onChange={this.changeHandler} required />
 
                                         </div>
-
-
-
+                                        <br/>
                                         <div className="form-group">
                                             <label for="img">Image</label>
                                             <input type="file" name="image" className="form-control" onChange={this.fileHandler} accept="image/*" required />
 
                                         </div>
-
+                                        <br/>
                                         <div className="form-group">
                                             <label>Description</label>
                                             <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.changeHandler} required />
 
                                         </div>
-
+                                        <br/>
                                         <button type="submit" onClick={this.createMessage} className="btn btn-primary"><FaPlusCircle /> Add Team</button>
                                     </form>
 
 
 
                                 </div>
-
-                           
                         </div>
 
                     </div>
