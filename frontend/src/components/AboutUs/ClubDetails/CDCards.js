@@ -3,7 +3,6 @@ import './CDCards.css';
 import CDCardItem from './CDCardItems';
 import { Link } from "react-router-dom";
 // import leo from "../../public/images/leo.png";
-import Pagination from "react-js-pagination";
 import axios from "axios";
 
 function CDCards() {
@@ -51,13 +50,13 @@ function CDCards() {
                     />
                   </>
                 ))}
-                <Pagination
+                {/* <Pagination
                   activePage="0"
                   itemsCountPerPage={10}
                   totalItemsCount={450}
                   pageRangeDisplayed={5}
                   onChange={handlePageChange.bind(this)}
-                />
+                /> */}
               </>
             )}
           </ul>

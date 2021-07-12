@@ -98,7 +98,7 @@ const Footer = () => {
                                <i class='fab fa-facebook' />
                             </a>
 
-                           <a href={"https://www.instagram.com"} className='social-icon-link facebook'
+                           {/* <a href={"https://www.instagram.com"} className='social-icon-link facebook'
                            target="_blank"
                            >
                                <i class='fab fa-instagram' />
@@ -113,7 +113,7 @@ const Footer = () => {
                            target="_blank"
                            >
                                <i class='fab fa-twitter' />
-                           </a>
+                           </a> */}
                         </div>
                         </div>
                     </section>
