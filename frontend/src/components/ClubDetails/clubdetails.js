@@ -7,17 +7,16 @@ import axios from 'axios'
 class CreateClubs extends Component {
 
     state = {
-
-        topic: "",
+        name: ""    ,
         Allimages: '',
-        description: "",
-
+        contactPerson: "",
+        contactNumber: "",
+        email: "",
+        members: "",
+        address: "",
         config: {
             headers: { 'authorization': `Bearer ${localStorage.getItem('token')}` }
         }
-    
-
-
     }
 
 
@@ -34,10 +33,13 @@ class CreateClubs extends Component {
     createClub = (e) => {
         e.preventDefault(); //prevents from reloading page
         const data = new FormData()
-        data.append("topic", this.state.topic)
+        data.append("name", this.state.name)
         data.append("Allimages", this.state.Allimages)
-        data.append("description", this.state.description)
-
+        data.append("contactPerson", this.state.contactPerson)
+        data.append("contactNumber", this.state.contactNumber)
+        data.append("email", this.state.email)
+        data.append("members", this.state.members)
+        data.append("address", this.state.address)
 
         // prevents from reloading page
         axios.post("http://localhost:5000/activity/insert", data)
@@ -75,19 +77,40 @@ class CreateClubs extends Component {
                                     <form>
                                         <div className="form-group">
                                             <label>Club Name</label>
-                                            <input type="text" className="form-control" name="topic" value={this.state.eventName} onChange={this.changeHandler} required />
+                                            <input type="text" className="form-control" name="name" value={this.state.name} onChange={this.changeHandler} required />
 
                                         </div>
                                         <br/>
                                         <div className="form-group">
+                                            <label>Address</label>
+                                            <input type="text" className="form-control" name="address" value={this.state.address} onChange={this.changeHandler} required />
+
+                                        </div>
+                                        <br/>
+                                        {/* <div className="form-group">
                                             <label for="img">Image</label>
-                                            <input type="file" name="Allimages" className="form-control" onChange={this.fileHandler} accept="image/*" required />
+                                            <input type="file" name="Allimages" className="form-control" onChange={this.fileHandler} accept="image/*"/>
 
+                                        </div> */}
+                                        {/* <br/> */}
+                                        <div className="form-group">
+                                            <label>Contact Person</label>
+                                            <input type="text" className="form-control" name="contactPerson" value={this.state.contactPerson} onChange={this.changeHandler} />
                                         </div>
                                         <br/>
                                         <div className="form-group">
-                                            <label>Description</label>
-                                            <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.changeHandler} required />
+                                            <label>Contact Number</label>
+                                            <input type="text" className="form-control" name="contactNumber" value={this.state.contactNumber} onChange={this.changeHandler} />
+                                        </div>
+                                        <br/>
+                                        <div className="form-group">
+                                            <label>Email</label>
+                                            <input type="text" className="form-control" name="email" value={this.state.email} onChange={this.changeHandler} />
+                                        </div>
+                                        <br/>
+                                        <div className="form-group">
+                                            <label>Total Members</label>
+                                            <input type="text" className="form-control" name="members" value={this.state.members} onChange={this.changeHandler} />
                                         </div>
                                         <br/>
                                         <button type="submit" onClick={this.createClub} className="btn btn-primary"><FaPlusCircle /> Add Club</button>
