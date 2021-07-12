@@ -41,6 +41,8 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Item href="/PastLeaders" className='text-blue'>Past Leaders</NavDropdown.Item>
                                 <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
                                 <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Developer Team</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Message from district governer</NavDropdown.Item>
 
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
@@ -48,12 +50,11 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Item href="/DistrictDirectory" className='text-blue'>District Directory</NavDropdown.Item>
                                 <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
                                 <NavDropdown.Item href="/LeoManual" className='text-blue'>Training Manual</NavDropdown.Item>
-                                <NavDropdown.Item href="/FlagSalutation" className='text-blue'>Flag Salutation</NavDropdown.Item>
                                 <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/DonateNow" className='text-blue'>Esewa Payment</Nav.Link>
+                            <Nav.Link href="/DonateNow" className='text-blue'>DONATE NOW</Nav.Link>
 
                           </Nav>
                           </Navbar.Collapse>

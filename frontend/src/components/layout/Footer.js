@@ -73,7 +73,7 @@ const Footer = () => {
                         <div class="border-bottom"></div>
  
                         <p>
-                        info @emailaddress.com
+                        leo.325b1@gmail.com
                         </p>
                         <p>
                         013212313/ 123123123
