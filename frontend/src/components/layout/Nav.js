@@ -42,7 +42,7 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
                                 <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Developer Team</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Message from district governer</NavDropdown.Item>
+                                <NavDropdown.Item href="/AboutLeo" className='text-blue'>About US</NavDropdown.Item>
 
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
