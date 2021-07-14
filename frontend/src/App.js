@@ -16,6 +16,7 @@ import Events from './components/Events/Events'
 import EventSingle from "./components/Events/EventsSingle";
 import DonationFailure from './components/DonateNow/pages/failure';
 import DonationSuccess from './components/DonateNow/pages/success';
+import AboutLDC from "./components/AboutUs/AboutDistrict/AboutLDC";
 import Admin from './admin/admin';
 import {
   BrowserRouter as Router,
@@ -53,6 +54,7 @@ function App() {
             <Route path='/DonationFailure' component={DonationFailure} />
             <Route path='/DonationSuccess' component={DonationSuccess} />
             <Route path='/Events' component={Events} />
+            <Route path='/AboutLeo' component={AboutLDC} />
             <Route path='/event/single/:_id' component={EventSingle} />
             <Route path='/card/single/:_id' component={ClubSingle} />
             <Route path='/login' component={Login} />

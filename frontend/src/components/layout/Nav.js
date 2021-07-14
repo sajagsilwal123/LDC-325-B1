@@ -43,6 +43,8 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Developer Team</NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
                                 {/* <NavDropdown.Item href="/" className='text-blue'>Message from district governer</NavDropdown.Item> */}
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="/AboutLeo" className='text-blue'>About Leo District Council 325B1</NavDropdown.Item>
 
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
