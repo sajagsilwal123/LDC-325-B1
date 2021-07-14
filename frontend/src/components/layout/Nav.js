@@ -47,9 +47,7 @@ class Navigaiton extends React.Component {
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
                             <NavDropdown title="RESOURCES" id="collasible-nav-dropdown" className='text-blue'>
-                                <NavDropdown.Item href="/DistrictDirectory" className='text-blue'>District Directory</NavDropdown.Item>
-                                <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
-                                <NavDropdown.Item href="/LeoManual" className='text-blue'>Training Manual</NavDropdown.Item>
+                                <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>                           
                                 <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
@@ -72,7 +70,12 @@ class Navigaiton extends React.Component {
       <div>{menu}</div> 
     )
 }
-
 }
+
+//training manual
+//<NavDropdown.Item href="/LeoManual" className='text-blue'>Training Manual</NavDropdown.Item>
+//Directory
+//<NavDropdown.Item href="/DistrictDirectory" className='text-blue'>District Directory</NavDropdown.Item>
+
 
 export default Navigaiton

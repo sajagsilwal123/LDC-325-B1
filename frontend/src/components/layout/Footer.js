@@ -98,22 +98,18 @@ const Footer = () => {
                                <i class='fab fa-facebook' />
                             </a>
 
-                           {/* <a href={"https://www.instagram.com"} className='social-icon-link facebook'
+                            <a href={"https://www.instagram.com/ldc325b1nepal/"} className='social-icon-link facebook'
                            target="_blank"
                            >
                                <i class='fab fa-instagram' />
                            </a>
 
-                           <a href={"https://www.youtube.com"} className='social-icon-link facebook'
+                           <a href={"https://www.youtube.com/channel/UC7b-_0hBqX1CPzxbzSrNn0A"} className='social-icon-link facebook'
                            target="_blank"
                            >
                                <i class='fab fa-youtube' />
                            </a>
-                           <a href={"https://www.twitter.com"} className='social-icon-link facebook'
-                           target="_blank"
-                           >
-                               <i class='fab fa-twitter' />
-                           </a> */}
+
                         </div>
                         </div>
                     </section>

@@ -5,7 +5,7 @@ exports.pay = function (amount, club, remarks) {
             psc: 0,
             pdc: 0,
             txAmt: 0,
-            scd: "EPAYTEST",
+            scd: "NP-ES-LEO",
             su: "http://localhost:3000/DonationSuccess",
             fu: "http://localhost:3000/DonationFailure"
         }
@@ -19,7 +19,7 @@ exports.pay = function (amount, club, remarks) {
     
     var form = document.createElement("form");
     form.setAttribute("method", "POST");
-    form.setAttribute("action", "https://uat.esewa.com.np/epay/main");
+    form.setAttribute("action", "https://esewa.com.np/epay/main");
 
     for(var key in params) {
         var hiddenField = document.createElement("input");
