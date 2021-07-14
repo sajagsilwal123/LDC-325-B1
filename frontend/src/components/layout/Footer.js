@@ -58,12 +58,12 @@ const Footer = () => {
                             </Link>
                             
                         </p>
-                        <p>
+                        {/* <p>
                             <Link to = "/enewsletter" className="footer-clr" >
                                     e-NEWSLETTER
                             </Link>
 
-                        </p>
+                        </p> */}
                     </Col>
                     <Col md={4} sm={12}>
                         <br/>
@@ -75,9 +75,9 @@ const Footer = () => {
                         <p>
                         leo.325b1@gmail.com
                         </p>
-                        <p>
+                        {/* <p>
                         013212313/ 123123123
-                        </p>
+                        </p> */}
                         <p>
                         Kalanki, Kathmandu
                         </p>
