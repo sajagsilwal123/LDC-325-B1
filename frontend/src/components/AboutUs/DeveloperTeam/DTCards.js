@@ -6,7 +6,6 @@ import sajag from '../../../public/images/Developers/sajag.jpg'
 import abhaya from '../../../public/images/Developers/Abhaya.jpg'
 import ashwin from '../../../public/images/Developers/Aashwin.jpg'
 import enjeela from '../../../public/images/Developers/enjeela.jpg'
-import seejan from '../../../public/images/Developers/Seejan.jpg'
 import arasha from '../../../public/images/Developers/Arasha.jpg'
 import kopila from '../../../public/images/Developers/kopila.jpg'
 import aarush from '../../../public/images/Developers/Aarush.jpg'
@@ -35,19 +34,18 @@ function DTCards() {
 
           </ul>
           <ul className='DTcards__items'>
-            <DTcardItem
-              src={seejan}title= 'Leo Seejan Raj Mainali '
-              text='Leo Club of Kathmandu Peace Eyes'
-              label='Senior Developer'
-              />
-
-            <DTcardItem
+          <DTcardItem
               src={enjeela}              
               title= 'Leo Enjeela Chaudhary'
               text='Leo Club of Kathmandu Nagarjun'
               label='Backend Developer'
-                      /> 
-             <DTcardItem
+              /> 
+            <DTcardItem
+              src={leo}title= 'Leo Seejan Raj Mainali '
+              text='Leo Club of Kathmandu Peace Eyes'
+              label='Developer'
+              />
+            <DTcardItem
               src={aarush}
               title= 'Leo Aarush Thapa'
               text='Leo Club of Kathmandu Samakhusi'

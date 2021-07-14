@@ -47,7 +47,6 @@ function EventsCards() {
       </div>
     );
   } else {
-    console.log(responseData, 'rd')
     return (
       <div>
         <h1>Events</h1>

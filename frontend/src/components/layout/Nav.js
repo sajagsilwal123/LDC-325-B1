@@ -41,16 +41,16 @@ class Navigaiton extends React.Component {
                                 <NavDropdown.Item href="/PastLeaders" className='text-blue'>Past Leaders</NavDropdown.Item>
                                 <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
                                 <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Developer Team</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Message from district governer</NavDropdown.Item>
+                                {/* <NavDropdown.Divider /> */}
+                                {/* <NavDropdown.Item href="/" className='text-blue'>Message from district governer</NavDropdown.Item> */}
 
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
                             <NavDropdown title="RESOURCES" id="collasible-nav-dropdown" className='text-blue'>
                                 <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>                           
-                                <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item>
+                                {/* <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item> */}
+                                {/* <NavDropdown.Divider />
+                                <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item> */}
                             </NavDropdown>
                             <Nav.Link href="/DonateNow" className='text-blue'>DONATE NOW</Nav.Link>
 
