@@ -36,15 +36,7 @@ function DTCards() {
               title= 'Leo Enjeela Chaudhary'
               text='Leo Club of Kathmandu Nagarjun'
               label='Backend Developer'
-            
-              
-            /> 
-                      <DTcardItem
-              src={leo}
-              title= 'Leo Aarush Thapa'
-              text='Leo Club of Kathmandu Samakushi'
-              label='President'
-            /> 
+                      /> 
           </ul>
           <ul className='DTcards__items'>
             <DTcardItem

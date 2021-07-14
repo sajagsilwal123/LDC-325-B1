@@ -72,7 +72,7 @@ router.put('/event/update/:id',function (req, res) {
 
 //gets all info
 router.get('/event/all/:page', function (req, res) {
-    event.paginate({}, { page: req.params.page || 1, limit: 10, sort: { eventDate: 1 }, }, function(err, result) {
+    event.paginate({}, { page: req.params.page || 1, limit: 3, sort: { eventDate: 1 }, }, function(err, result) {
         res.status(200).json({
             eventData: result
         })

@@ -8,6 +8,7 @@ import {
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
 
+
 function EventSingle(props) {
     let [responseData, setResponseData] = useState("");
 
@@ -39,9 +40,9 @@ return (
         { responseData &&
             <>
             <h1>{responseData.eventName}</h1> <br/>
-            <h5>{formatDate(responseData.eventDate)}</h5>
+            <h5>Date: {formatDate(responseData.eventDate)}</h5>
             <Card>
-                <CardImg top width="100%" src={"http://localhost:5000/" + responseData.eventImage} alt="Card image cap" />
+                <CardImg top width="100%" style={{maxWidth:"40vw", margin:"auto"}}  src={"http://localhost:5000/" + responseData.eventImage} alt="Card image cap" />
                     <CardBody>
                         <CardText>{renderHTML(responseData.eventDescription)}</CardText>
                     </CardBody>
