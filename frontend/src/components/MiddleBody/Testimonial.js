@@ -22,8 +22,7 @@ function Testimonial(){
                             </h2>
                             <h4>
                                 <p class='text-muted'>
-                                    "A leader is not the one who knows everything but a leader
-                                    is the one who can do everything. So, in leadership coordination, cooperation and caliber is the most important thing to be remembered."
+                                    "A leader is not the one who knows everything but a leader is the one who can do everything. So, in leadership coordination, cooperation and caliber is the most important thing to be remembered."
                                </p>
                             </h4>
                             
