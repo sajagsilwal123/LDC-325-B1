@@ -81,6 +81,17 @@ router.get('/event/all/:page', function (req, res) {
     })
 })
 
+router.get('/event/dashboard/', function (req, res) {
+    event.find()
+    .sort({'eventDate': 1})
+    .limit(6)
+    .then(function (data) {
+        res.status(200).json({data})
+    }).catch(function (err) {
+        res.status(500).json({ message: err })
+    })
+})
+
 
 //to show only single element
 router.get('/event/single/:id', function (req, res) {
