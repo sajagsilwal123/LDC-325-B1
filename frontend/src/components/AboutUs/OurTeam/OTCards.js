@@ -1,91 +1,28 @@
 import React from 'react';
 import './OTCards.css';
-import OTcardItem from './OTCardItems';
-import { Link } from 'react-router-dom';
-import leo from '../../../public/images/leo.png'
-import {Col} from 'react-bootstrap'
+import OTCardItem from './OTCardItems';
+import { Container, Row, Col } from 'reactstrap';
+let members = require('../../../helpers/district_board');
 
 function OTCards() {
   return (
-    <div className='OTcards'>
-      <h1>District Team for Lion Year 20/21</h1>
-      <div className='OTcards__container'>
-        <div className='OTcards__wrapper'>
-          <ul className='OTcards__items'>
-          <Col></Col>
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='Vice-President'
-            />             
-            <Col></Col>
-          </ul>
-          <ul className='OTcards__items'>
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='Vice-President'
-            />
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='Vice-President'
-            /> 
-                      <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            /> 
-          </ul>
-          <ul className='OTcards__items'>
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            />
-
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            />
-                      <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            /> 
-          </ul>
-          <ul className='OTcards__items'>
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            />
-            <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            /> 
-                      <OTcardItem
-              src={leo}
-              title= 'Leo Dummy Dummy'
-              text='Leo Club of Kathmandu Dummy'
-              label='President'
-            /> 
-          </ul>
-
-        </div>
-      </div>
-    </div>
+    <Container>
+      <h1>District Board</h1> <br/>      
+        {members && (
+          <Row>
+            {members.members.map((member, i) => (
+              <Col md="6" xl="4" lg="4" sm="6"  style={{marginBottom: '10px', paddingBottom:'10px'}} >
+                <OTCardItem
+                  src={process.env.REACT_APP_URL + 'images/DistrictTeam/' + member.photo}
+                  title={member.name}
+                  text={member.homeClub}
+                  label={member.designation}
+                />
+              </Col>
+                ))}
+          </Row>
+            )}
+      </Container>
   );
 }
 

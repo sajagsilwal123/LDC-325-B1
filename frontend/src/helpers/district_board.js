@@ -1,699 +1,622 @@
 exports.members = [
-        {
-            "ids": "1",
-            "position": "District President",
-            "name": "Leo Prakash Thapa Chhetri",
-            "email": "nprakashthapa21@gmail.com"
-        },
-        {
-            "ids": "2",
-            "position": "Leo Club Chairman",
-            "name": "Lion Ratna Parajuli",
-            "email": "ramesh78parajuli@yahoo.com"
-        },
-        {
-            "ids": "3",
-            "position": "Immediate Past President",
-            "name": "Leo Aadarsha M. Bhattarai",
-            "email": "ad.bhattarai7@gmail.com"
-        },
-        {
-            "ids": "4",
-            "position": "District Vice President",
-            "name": "Leo Yogesh Gautam",
-            "email": "yogeshgautam102@gmail.com"
-        },
-        {
-            "ids": "5",
-            "position": "District Secretary",
-            "name": "Leo Sudam Lamichhane",
-            "email": "lamichhanesudam1271@gmail.com"
-        },
-        {
-            "ids": "6",
-            "position": "District Treasurer",
-            "name": "Leo Deepti Neupane",
-            "email": "deeptinyoupane9@gmail.com"
-        },
-        {
-            "ids": "7",
-            "position": "District joint Secretary",
-            "name": "Leo Dilip Shrestha",
-            "email": "dilipshrestha601@gmail.com"
-        },
-        {
-            "ids": "8",
-            "position": "District Joint Secretary",
-            "name": "Leo Ananta Dhakal",
-            "email": "urloveananta@gmail.com"
-        },
-        {
-            "ids": "9",
-            "position": "District Joint Secretary",
-            "name": "Leo Dharmaraj Pokhrel",
-            "email": "binodpokhrel90.bp@gmail.com"
-        },
-        {
-            "ids": "10",
-            "position": "District Joint Treasurer",
-            "name": "Leo Rosy Kayastha",
-            "email": "roziekayastha@gmail.com"
-        },
-        {
-            "ids": "11",
-            "position": "District Joint Treasurer",
-            "name": "Leo Swarup shakya",
-            "email": "shakyasworup@gmail.com"
-        },
-        {
-            "ids": "12",
-            "position": "District Joint Treasurer",
-            "name": "Leo Sandesh Bogati",
-            "email": "sandeshbogati12345@gmail.com"
-        },
-        {
-            "ids": "13",
-            "position": "Chief PRO",
-            "name": "Leo Santosh Dhakal",
-            "email": "sdhakal787@gmail.com"
-        },
-        {
-            "ids": "14",
-            "position": "Tail Twister",
-            "name": "Leo Sushil Bhandari",
-            "email": "sushilbhandari6666@gmail.com"
-        },
-        {
-            "ids": "15",
-            "position": "Tamer",
-            "name": "Leo Jhalak G.C",
-            "email": "gcgjhalak99@gmail.com"
-        },
-        {
-            "ids": "16",
-            "position": "Chief Administrator",
-            "name": "Leo Saurav K.C.",
-            "email": "sauravcandy@gmail.com"
-        },
-        {
-            "ids": "17",
-            "position": "Chief Department Chairperson",
-            "name": "Leo Vignesh Thapa",
-            "email": "vigneshthapa@gmail.com"
-        },
-        {
-            "ids": "18",
-            "position": "Chief Region Coordinator",
-            "name": "Leo Kiran Thapa Chhetri",
-            "email": "ktc10054@gmail.com"
-        },
-        {
-            "ids": "19",
-            "position": "PRO",
-            "name": "Leo Prabesh Pokhrel",
-            "email": "bodareturns@gmail.com"
-        },
-        {
-            "ids": "20",
-            "position": "PRO",
-            "name": "Leo Dikshyanta Pratap Khand",
-            "email": "dikshyantakhand@gmail.com"
-        },
-        {
-            "ids": "21",
-            "position": "Administrator",
-            "name": "Leo Newana Tandukar",
-            "email": "newana.tandukar@gmail.com"
-        },
-        {
-            "ids": "22",
-            "position": "Administrator",
-            "name": "LC Bishal Adhikari",
-            "email": "bshaladhikari23@gmail.com"
-        },
-        {
-            "ids": "23",
-            "position": "Chief Department Co-Chairperson",
-            "name": "Leo Bidur Ballav Bhattarai",
-            "email": "bidurbhattarai97@gmail.com"
-        },
-        {
-            "ids": "24",
-            "position": "Chief Department Co-Chairperson",
-            "name": "Leo Denish K.C.",
-            "email": "danish.kc1@gmail.com"
-        },
-        {
-            "ids": "25",
-            "position": "Area Coordinator (Bagmati)",
-            "name": "Leo Manish Aryal",
-            "email": "aryalmanish1@gmail.com"
-        },
-        {
-            "ids": "26",
-            "position": "Area Coordinator (Dhaulagiri, Gandaki)",
-            "name": "Leo RajanBabu Dhungana",
-            "email": "dhunganarajanbabu@gmail.com"
-        },
-        {
-            "ids": "27",
-            "position": "Leo Club Chairman",
-            "name": "Lion Ratna Parajuli"
-        },
-        {
-            "ids": "28",
-            "position": "Chief District Advisor",
-            "name": "Leo Rajendra Baral",
-            "email": "leorajendrabaral@gmail.com"
-        },
-        {
-            "ids": "29",
-            "position": "District Advisor",
-            "name": "Leo Biplab Subedi",
-            "email": "biplab43@gmail.com"
-        },
-        {
-            "ids": "30",
-            "position": "District Advisor",
-            "name": "Lion Prem Kumar Shrestha",
-            "email": "myprems@yahoo.com"
-        },
-        {
-            "ids": "31",
-            "position": "District Advisor",
-            "name": "Lion Tirtha Raj Khanal",
-            "email": "pointmeleo@gmail.com"
-        },
-        {
-            "ids": "32",
-            "position": "District Advisor",
-            "name": "Lion Shekhar Karki",
-            "email": "shekhar.karki13@gmail.com"
-        },
-        {
-            "ids": "33",
-            "position": "District Advisor",
-            "name": "Mr. Surendra Pariyar",
-            "email": "suren.rosebed@gmail.com"
-        },
-        {
-            "ids": "34",
-            "position": "District Advisor",
-            "name": "Leo Ashok Poudel",
-            "email": "oikchha@gmail.com"
-        },
-        {
-            "ids": "35",
-            "position": "District Advisor",
-            "name": "Leo Niranjan Dangol",
-            "email": "sanidtokha@gmail.com"
-        },
-        {
-            "ids": "36",
-            "position": "District Advisor",
-            "name": "Leo Bishal Rijal",
-            "email": "bishalnaf@gmail.com"
-        },
-        {
-            "ids": "37",
-            "position": "District Advisor",
-            "name": "Leo Binayak Poudel",
-            "email": "binayak@urjalab.org"
-        },
-        {
-            "ids": "38",
-            "position": "District Advisor",
-            "name": "Leo Mukesh Poudel",
-            "email": "mukesh.poudel123@gmail.com"
-        },
-        {
-            "ids": "39",
-            "position": "District Advisor",
-            "name": "Leo Dipesh Bhattarai",
-            "email": "bhattarai.dipes@gmail.com"
-        },
-        {
-            "ids": "40",
-            "position": "District Advisor",
-            "name": "Leo Anish Lamichhane",
-            "email": "leoanishlamichhane325b2@gmail.com"
-        },
-        {
-            "ids": "41",
-            "position": "District Advisor",
-            "name": "Leo Samir Baral",
-            "email": "baralsameer4851@gmail.com"
-        },
-        {
-            "ids": "42",
-            "position": "District Advisor",
-            "name": "Leo Pradip Poudel",
-            "email": "poudelpradip55@gmail.com"
-        },
-        {
-            "ids": "43",
-            "position": "District Advisor",
-            "name": "Leo Salil Dhungel",
-            "email": "salil8054@gmail.com"
-        },
-        {
-            "ids": "44",
-            "position": "District President Advisor",
-            "name": "Leo Krishna pd. Dhital",
-            "email": "way2dhital@gmail.com"
-        },
-        {
-            "ids": "45",
-            "position": "District President Advisor",
-            "name": "Leo Bidhya Rimal"
-        },
-        {
-            "ids": "46",
-            "position": "District President Advisor",
-            "name": "Leo Sandip Lamichhane",
-            "email": "sandeeplamichhane056@gmail.com"
-        },
-        {
-            "ids": "47",
-            "position": "District President Advisor",
-            "name": "Leo Ganesh Baral",
-            "email": "gloomy.ganess@gmail.com"
-        },
-        {
-            "ids": "48",
-            "position": "District President Advisor",
-            "name": "Leo Aananda Yogal Shrestha"
-        },
-        {
-            "ids": "49",
-            "position": "Ambassador of District President",
-            "name": "Leo Samjhana Bhandari",
-            "email": "samjhanabhandari3022@gmail.com"
-        },
-        {
-            "ids": "50",
-            "position": "Ambassador of District President",
-            "name": "Leo Suvarna Raj Panta",
-            "email": "suvarnaraj.022@gmail.com"
-        },
-        {
-            "ids": "51",
-            "position": "Ambassador of District President",
-            "name": "Leo Adarsha Lamichhane",
-            "email": "aadarshalc5@gmail.com"
-        },
-        {
-            "ids": "52",
-            "position": "Ambassador of District President",
-            "name": "Leo Anil Shrestha",
-            "email": "anilsth4@gmail.com"
-        },
-        {
-            "ids": "53",
-            "position": "District Director",
-            "name": "Leo Prakash Rijal",
-            "email": "prakash001rijal@gmail.com"
-        },
-        {
-            "ids": "54",
-            "position": "District Director",
-            "name": "Leo Susan Dangol",
-            "email": "leosusandangol@gmail.com"
-        },
-        {
-            "ids": "55",
-            "position": "District Director",
-            "name": "Leo Anit Bista",
-            "email": "anitbista5@gmail.com"
-        },
-        {
-            "ids": "56",
-            "position": "District Director",
-            "name": "Leo Rekha Lamichhane",
-            "email": "rekhalamichhane13@gmail.com"
-        },
-        {
-            "ids": "57",
-            "position": "District Director",
-            "name": "Leo Suprim Shrestha",
-            "email": "sshrestha774@gmail.com"
-        },
-        {
-            "ids": "58",
-            "position": "District Director",
-            "name": "Leo Bibek Aryal"
-        },
-        {
-            "ids": "59",
-            "position": "District Director",
-            "name": "Leo Dinesh Giri",
-            "email": "dgiri1773@gmail.com"
-        },
-        {
-            "ids": "60",
-            "position": "District Director",
-            "name": "Leo Joshan Shrestha",
-            "email": "stha.joshan37@gmail.com"
-        },
-        {
-            "ids": "61",
-            "position": "District Director",
-            "name": "Leo Prem Ghatani"
-        },
-        {
-            "ids": "62",
-            "position": "District Director",
-            "name": "Leo Balaram Kandel",
-            "email": "kandellekhani@gmail.com"
-        },
-        {
-            "ids": "63",
-            "position": "District Director",
-            "name": "Leo Abiral Poudel",
-            "email": "abiralpaudel12@gmail.com"
-        },
-        {
-            "ids": "64",
-            "position": "District Director",
-            "name": "Leo Achyuttam Rimal"
-        },
-        {
-            "ids": "65",
-            "position": "District Director",
-            "name": "Leo DipeshRaj Sigdel",
-            "email": "dipsun508@gmail.com"
-        },
-        {
-            "ids": "66",
-            "position": "District Director",
-            "name": "Leo Suvarna jung K.C"
-        },
-        {
-            "ids": "67",
-            "position": "District Director",
-            "name": "Leo Ashok Baral",
-            "email": "ashokbaral2052@gmail.com"
-        },
-        {
-            "ids": "68",
-            "position": "District Director",
-            "name": "Leo Uttam Rimal",
-            "email": "utm.rml@gmail.com"
-        },
-        {
-            "ids": "69",
-            "position": "District Director",
-            "name": "Leo Sankalpa Basel",
-            "email": "herosankalpahero@gmail.com"
-        },
-        {
-            "ids": "70",
-            "position": "District Director",
-            "name": "Leo Kiran Adhikari",
-            "email": "kiranadhikari97@gmail.com"
-        },
-        {
-            "ids": "71",
-            "position": "District Director",
-            "name": "Leo Mira Khadka",
-            "email": "leo.mira2011@gmail.com"
-        },
-        {
-            "ids": "72",
-            "position": "NLF Management",
-            "name": "Leo Komal B Baniya",
-            "email": "baniya160@gmail.com"
-        },
-        {
-            "ids": "73",
-            "position": "Blood Donation & Application Hub",
-            "name": "Leo Ashwin Khatiwada",
-            "email": "khatiwadaashwin5@gmail.com"
-        },
-        {
-            "ids": "74",
-            "position": "Leo Child,Hunger Relief & Education",
-            "name": "Leo Santosh Pahari",
-            "email": "paharisantos@gmail.com"
-        },
-        {
-            "ids": "75",
-            "position": "Model Youth Parliament & MUN",
-            "name": "Leo Swastee Adhikari",
-            "email": "swosteeadhikari11@gmail.com"
-        },
-        {
-            "ids": "76",
-            "position": "Club Twinning & Int. Relation",
-            "name": "Leo Monika Thapa",
-            "email": "lck.peacetown@gmail.com"
-        },
-        {
-            "ids": "77",
-            "position": "Fellowship & ECA",
-            "name": "Leo Suji Magar",
-            "email": "suzimagar39@gmail.com"
-        },
-        {
-            "ids": "78",
-            "position": "Health",
-            "name": "Leo Niraj Pandey",
-            "email": "neeraz1pandey@gmail.com"
-        },
-        {
-            "ids": "79",
-            "position": "Eye Vision,Childhood cancer & Differently Able",
-            "name": "Leo Anoop Giri",
-            "email": "unitedanup@gmail.com"
-        },
-        {
-            "ids": "80",
-            "position": "Youth Empowerment & Conclave",
-            "name": "Leo Sangam Lamichhane",
-            "email": "sangamlamichhane956@gmail.com"
-        },
-        {
-            "ids": "81",
-            "position": "Women Empowerment",
-            "name": "Leo Ganga Shrestha",
-            "email": "jennysth55@gmail.com"
-        },
-        {
-            "ids": "82",
-            "position": "Information Technology",
-            "name": "Leo Arjun Sharma Poudel",
-            "email": "arjunsharmapoudel82@gmail.com"
-        },
-        {
-            "ids": "83",
-            "position": "Media & Communication",
-            "name": "Leo Rameswor Sharma Bhurtel",
-            "email": "rameshworsharma7@gmail.com"
-        },
-        {
-            "ids": "84",
-            "position": "Business Development & Entrepreneurship",
-            "name": "Leo Ankit Poudel",
-            "email": "ankitpoudel1146@gmail.com"
-        },
-        {
-            "ids": "85",
-            "position": "Environment conservation",
-            "name": "Leo Bhakta Bdr. Sunar",
-            "email": "bhaktabdrsunar69@gmail.com"
-        },
-        {
-            "ids": "86",
-            "position": "Region Coordinator-Dhaulagiri",
-            "name": "Leo Jeevan Thapa Adit",
-            "email": "iamjeevan475@gmail.com"
-        },
-        {
-            "ids": "87",
-            "position": "Region Coordinator-Annapurna",
-            "name": "Leo Bidur Sapkota",
-            "email": "bidurbindas70@gmail.com"
-        },
-        {
-            "ids": "88",
-            "position": "Region Coordinator-Fewa",
-            "name": "Leo Divya Neupane",
-            "email": "divyaneupane22@gmail.com"
-        },
-        {
-            "ids": "89",
-            "position": "Region Coordinator-Begnas",
-            "name": "Leo Ranjit Timilsina",
-            "email": "leoranjit4you@gmail.com"
-        },
-        {
-            "ids": "90",
-            "position": "Region Coordinator-Machhapuchhre",
-            "name": "Leo Bishnu Pd. Dahal",
-            "email": "aavash.bhai@gmail.com"
-        },
-        {
-            "ids": "91",
-            "position": "Region Coordinator-Marsyangdi",
-            "name": "Leo Amrit Pandit",
-            "email": "amrit.pandit31@gmail.com"
-        },
-        {
-            "ids": "92",
-            "position": "Region Coordinator-Trishuli",
-            "name": "Leo Shreekrishna Giri",
-            "email": "girikrishnashree@gmail.com"
-        },
-        {
-            "ids": "93",
-            "position": "Region Coordinator-Kageshwori-Manohara",
-            "name": "Leo Nishchal Thakuri",
-            "email": "nischalhamal7@gmail.com"
-        },
-        {
-            "ids": "94",
-            "position": "Region Coordinator-Chandragiri",
-            "name": "Leo Niraj Dangol",
-            "email": "nirajdangol04@gmail.com"
-        },
-        {
-            "ids": "95",
-            "position": "Region Coordinator-Pashupatinath",
-            "name": "Leo Sabita Bhetwal",
-            "email": "sabita.bhetwal2014@gmail.com"
-        },
-        {
-            "ids": "96",
-            "position": "Region Coordinator-Basantapur",
-            "name": "Leo Sulav Thakali",
-            "email": "sulavthakali1@gmail.com"
-        },
-        {
-            "ids": "97",
-            "position": "Region Coordinator-Bouddha",
-            "name": "Leo Prahlad Acharya",
-            "email": "prahladacharya45@gmail.com"
-        },
-        {
-            "ids": "98",
-            "position": "Region Coordinator-Tokha",
-            "name": "Leo Abhaya Thapa",
-            "email": "abhauathapa10@gmail.com"
-        },
-        {
-            "ids": "99",
-            "position": "Region Coordinator-Budhanilkantha",
-            "name": "Leo Suman Tiwari",
-            "email": "tiwarisuman80@gmail.com"
-        },
-        {
-            "ids": "100",
-            "position": "Blood Donation & Application Hub",
-            "name": "Leo Sujan Lamsal",
-            "email": "jeesujan@gmail.com"
-        },
-        {
-            "ids": "101",
-            "position": "Leo Child,Hunger Relief & Education",
-            "name": "Leo Prabin Lamichhane",
-            "email": "prabinlamichhane66@gmail.com"
-        },
-        {
-            "ids": "102",
-            "position": "Model Youth Parliament & MUN",
-            "name": "Leo Bikram Poudel",
-            "email": "basantabikram72030@gmail.com"
-        },
-        {
-            "ids": "103",
-            "position": "Club Twinning & Int. Relation",
-            "name": "Leo Kushal Lamsal",
-            "email": "leokushaklamsal@gmail.com"
-        },
-        {
-            "ids": "104",
-            "position": "Fellowship & ECA",
-            "name": "Leo Aamod Nepal",
-            "email": "aamodne1997@gmail.compal"
-        },
-        {
-            "ids": "105",
-            "position": "Health",
-            "name": "Leo Bijay Tripathi",
-            "email": "bjtripathi7@gmail.com"
-        },
-        {
-            "ids": "106",
-            "position": "Eye Vision,Childhood Cancer & Differently Able",
-            "name": "Leo Kalyani shrestha",
-            "email": "skalyani68@gmail.com"
-        },
-        {
-            "ids": "107",
-            "position": "Youth Empowerment & Conclave",
-            "name": "Leo Manoj Adhikari",
-            "email": "manuaadhikari@gmail.com"
-        },
-        {
-            "ids": "108",
-            "position": "Women Empowerment",
-            "name": "Leo Samita rana Magar",
-            "email": "ranasamita000@gmail.com"
-        },
-        {
-            "ids": "109",
-            "position": "Information Technology",
-            "name": "Enjeela Chaudhary",
-            "email": "cenjeela12@gmail.com"
-        },
-        {
-            "ids": "110",
-            "position": "Media & Communication",
-            "name": "Aayush Mahata",
-            "email": "aayushmahata646@gmail.com"
-        },
-        {
-            "ids": "111",
-            "position": "Business Development & Entrepreneurship",
-            "name": "Leo Uddav Parajuli"
-        },
-        {
-            "ids": "112",
-            "position": "Sustainable Development and Environment conservation",
-            "name": "Leo Binay Baral",
-            "email": "binay.barral@gmail.com"
-        },
-        {
-            "ids": "113",
-            "position": "Blood Donation & Application Hub",
-            "name": "Leo Bijay Gautam",
-            "email": "iambijay3@gmail.com"
-        },
-        {
-            "ids": "114",
-            "position": "Leo Child,Hunger Relief & Education",
-            "name": "Leo Bijay Puri",
-            "email": "clan12888@gmail.com"
-        },
-        {
-            "ids": "115",
-            "position": "Model Youth Parliament & MUN",
-            "name": "Leo Yubraj Bhandari"
-        },
-        {
-            "ids": "116",
-            "position": "Club Twinning & Int. Relation",
-            "name": "Leo Shreya Adhikari",
-            "email": "shriyaadhikari444@gmail.com"
-        },
-        {
-            "ids": "117",
-            "position": "Fellowship & ECA",
-            "name": "Leo Sudip Neupane"
-        },
-        {
-            "ids": "118",
-            "position": "Health",
-            "name": "Leo Sanjay Shrestha"
-        }
-    ];
+            {
+                "ids": "1",
+                "name": "Leo Prakash Thapa Chhetri",
+                "designation": "District President",
+                "homeClub": "LCK Deurali",
+                "photo": "NPrakash.jpg"
+            },
+            {
+                "ids": "2",
+                "name": "Lion Ratna Parajuli",
+                "designation": "Leo Club Chairman",
+                "photo": "Ratna.jpg"
+            },
+            {
+                "ids": "3",
+                "name": "Leo Aadarsha M. Bhattarai",
+                "designation": "Immediate Past President",
+                "homeClub": "LC Lekhnath",
+                "photo": "AadarshaMohan.jpg"
+            },
+            {
+                "ids": "4",
+                "name": "Leo Yogesh Gautam",
+                "designation": "District Vice President",
+                "homeClub": "LCK Peace Eyes",
+                "photo": "Yogesh.jpg"
+            },
+            {
+                "ids": "5",
+                "name": "Leo Sudam Lamichhane",
+                "designation": "District Secretary",
+                "homeClub": "LC Nuwakot paropakr",
+                "photo": "Sudam.jpg"
+            },
+            {
+                "ids": "6",
+                "name": "Leo Ananta Dhakal",
+                "designation": "Joint Secretary",
+                "homeClub": "LC Peace Thahanagar",
+                "photo": "Ananta.jpg"
+            },
+            {
+                "ids": "7",
+                "name": "Leo Dilip shrestha",
+                "designation": "Joint Secretary",
+                "homeClub": "LCK Makhamali",
+                "photo": "Dilip.jpg"
+            },
+            {
+                "ids": "8",
+                "name": "Leo Deepti Neupane",
+                "designation": "District Treasurer",
+                "homeClub": "LC Pokhara Sangam",
+                "photo": "Deepti.jpg"
+            },
+            {
+                "ids": "9",
+                "name": "Leo Sworup Shakya",
+                "designation": "Joint Treasurer",
+                "homeClub": "LCK Temple Chandeshwori",
+                "photo": "Swoprup.jpg"
+            },
+            {
+                "ids": "10",
+                "name": "Leo Roji Kayastha",
+                "designation": "Joint Treasurer",
+                "homeClub": "LCK Resunga",
+                "photo": "Rozie.jpg"
+            },
+            {
+                "ids": "11",
+                "name": "Leo Santosh Dhakal ",
+                "designation": "PRO in Chief ",
+                "homeClub": "LCK Bed Vyas ",
+                "photo": "Santosh.jpg"
+            },
+            {
+                "ids": "12",
+                "name": "Leo Sushil bhandari",
+                "designation": "Tail Twister",
+                "homeClub": "LCP Mountainc City ",
+                "photo": "Sushil.jpg"
+            },
+            {
+                "ids": "13",
+                "name": "Leo Jhalak G.C",
+                "designation": "Tamer"
+            },
+            {
+                "ids": "14",
+                "name": "Leo Saurav KC",
+                "designation": "Chief Administrator",
+                "homeClub": "LC Dhaulagiri Baglung",
+                "photo": "Saurav.jpg"
+            },
+            {
+                "ids": "15",
+                "name": "Leo Vignesh Thapa",
+                "designation": "Chief Department Chairperson"
+            },
+            {
+                "ids": "16",
+                "name": "Leo Kiran Thapa Chhetri",
+                "designation": "Chief Regional Coordinator ",
+                "homeClub": "LCK Miracle",
+                "photo": "Kiran.jpg"
+            },
+            {
+                "ids": "17",
+                "name": "Leo Dikshyanta khand",
+                "designation": "Public Relation Officer ",
+                "homeClub": "LC Waling ",
+                "photo": "Dikshyanta.jpg"
+            },
+            {
+                "ids": "18",
+                "name": "Leo Prabesh Pokhrel",
+                "designation": "Public Relation Officer ",
+                "homeClub": "LC Tanahun",
+                "photo": "Prabesh.jpg"
+            },
+            {
+                "ids": "19",
+                "name": "Leo Newana Tandukar",
+                "designation": "District Administrator",
+                "homeClub": "LC Balaju ",
+                "photo": "Newana.jpg"
+            },
+            {
+                "ids": "20",
+                "name": "Leo Bishal adhikari",
+                "designation": "district adminstrator",
+                "homeClub": "LC chautari pokhara",
+                "photo": "Bishal.jpg"
+            },
+            {
+                "ids": "21",
+                "name": "Leo Bidur Ballav Bhattrai",
+                "designation": "Chief Department Co-Chairperson"
+            },
+            {
+                "ids": "22",
+                "name": "Leo Danish Kc",
+                "designation": "Chief Department Co-Chairperson",
+                "homeClub": "LCK Nagarjun",
+                "photo": "Daynez.jpg"
+            },
+            {
+                "ids": "23",
+                "name": "Leo Manish Aryal",
+                "designation": " Area Chief,Bagmati",
+                "homeClub": "LCK Bhrikuti",
+                "photo": "Manish.jpg"
+            },
+            {
+                "ids": "24",
+                "name": "Leo Rajan Babu Dhungana",
+                "designation": "Area Chief(Dhaulagiri/Gandaki)",
+                "homeClub": "LC Lekhnath",
+                "photo": "Rajan.jpg"
+            },
+            {
+                "ids": "25",
+                "name": "Leo Samjhana Bhandari ",
+                "designation": "Ambassador of DP",
+                "homeClub": "Dhading Neelkantha ",
+                "photo": "Samjhana.jpg"
+            },
+            {
+                "ids": "26",
+                "name": "Leo Aadarsha Lamichhane",
+                "designation": "Ambassador of DP",
+                "homeClub": "LC Lekhnath",
+                "photo": "Aadarsha.jpg"
+            },
+            {
+                "ids": "27",
+                "name": "Sandip Lamichhane",
+                "designation": "District President Advisor ",
+                "homeClub": "LCK Samakhusi",
+                "photo": "Sandip.jpg"
+            },
+            {
+                "ids": "28",
+                "name": "Leo Uttam Rimal",
+                "designation": "District Director",
+                "homeClub": "LCK Himalayan Town",
+                "photo": "Uttam.jpg"
+            },
+            {
+                "ids": "29",
+                "name": "Leo Joshan Shrestha",
+                "designation": "District Director ",
+                "homeClub": "LCK Chhabdi Barahi ",
+                "photo": "Joshan.jpg"
+            },
+            {
+                "ids": "30",
+                "name": "Leo Suprim Shrestha",
+                "designation": "District Director",
+                "homeClub": "LCK Bishalbazar",
+                "photo": "Suprim.jpg"
+            },
+            {
+                "ids": "31",
+                "name": "Leo Achyutam Rimal",
+                "designation": "District Director",
+                "homeClub": "LCK central town",
+                "photo": "Achyutam.jpg"
+            },
+            {
+                "ids": "32",
+                "name": "Leo Abiral Poudel",
+                "designation": "Director",
+                "homeClub": "LCK Swoyambhu Town",
+                "photo": "Abiral.jpg"
+            },
+            {
+                "ids": "33",
+                "name": "Leo Sankalpa Basel",
+                "designation": "District Director ",
+                "homeClub": "LC Pokhara Central Valley ",
+                "photo": "Sankalpa.jpg"
+            },
+            {
+                "ids": "34",
+                "name": "Leo Anit Bista",
+                "designation": "District Director ",
+                "homeClub": "LC Peace Thahanagar",
+                "photo": "Anit.jpg"
+            },
+            {
+                "ids": "35",
+                "name": "Leo Dinesh Giri",
+                "designation": "District Director",
+                "homeClub": "LCK Siddhi",
+                "photo": "Dinesh.jpg"
+            },
+            {
+                "ids": "36",
+                "name": "Leo Rekha Lamichhane",
+                "designation": "District Director",
+                "homeClub": "LCK Everest Sunshine",
+                "photo": "Rekha.jpg"
+            },
+            {
+                "ids": "37",
+                "name": "Leo Bibek Aryal",
+                "designation": "District Director",
+                "homeClub": "LCK Gongabu",
+                "photo": "Bibek.jpg"
+            },
+            {
+                "ids": "38",
+                "name": "Leo Balaram Kandel",
+                "designation": "District Director ",
+                "homeClub": "LC Baglung Kalika",
+                "photo": "Balaram.jpg"
+            },
+            {
+                "ids": "39",
+                "name": "Leo Prem Bishwakarma ",
+                "designation": "District Director",
+                "homeClub": "LCK Koselee ",
+                "photo": "Prem.jpg"
+            },
+            {
+                "ids": "40",
+                "name": "Leo Dipesh Raj Sigdel",
+                "designation": "District Director",
+                "homeClub": "LC Pokhara Machhapuchhre",
+                "photo": "Dipesh.jpg"
+            },
+            {
+                "ids": "41",
+                "name": "Leo Prakash Rijal",
+                "designation": "Director",
+                "homeClub": "LC Nuwakot Paropakar",
+                "photo": "Prakash.jpg"
+            },
+            {
+                "ids": "42",
+                "name": "Leo Swostee Adhikari ",
+                "designation": "Chairperson,Department of Model Youth Parliament and MUN ",
+                "homeClub": "LCK Samakhusi ",
+                "photo": "Swostee.jpg"
+            },
+            {
+                "ids": "43",
+                "name": "Leo Arjun Sharma Poudel",
+                "designation": "Chairperson,Department of IT",
+                "homeClub": "LC Kathmandu Atal Pingalasthan",
+                "photo": "Arjun.jpg"
+            },
+            {
+                "ids": "44",
+                "name": " Leo Dr.Niraj pandey",
+                "designation": "Chairperson of Department of heath",
+                "homeClub": "LCK lazimpat chautari",
+                "photo": "NirajPandey.jpg"
+            },
+            {
+                "ids": "45",
+                "name": "Leo Anup Giri",
+                "designation": "Chairperson,Department of Eye Vision,Childhood Cancer and Differently Abled",
+                "homeClub": "LCK Sangam",
+                "photo": "Anup.jpg"
+            },
+            {
+                "ids": "46",
+                "name": "Leo Monika Thapa ",
+                "designation": "Chairperson,Department Club Twinning and International relations",
+                "homeClub": "LCK Peace Town ",
+                "photo": "Monika.jpg"
+            },
+            {
+                "ids": "47",
+                "name": "Leo Sangam Lamichhane",
+                "designation": "Chairperson,Department of Youth Empowerment and Conclave",
+                "homeClub": "LC of Pokhara Central Valley",
+                "photo": "Sangam.jpg"
+            },
+            {
+                "ids": "48",
+                "name": "Leo Ashwin Khatiwada",
+                "designation": "Chairperson,Blood Donation and Application Hub",
+                "homeClub": "LCK Sahayatri",
+                "photo": "Ashwin.jpg"
+            },
+            {
+                "ids": "49",
+                "name": "Leo Suzi Magar",
+                "designation": "Chairperson,Department of Fellowship and ECA",
+                "homeClub": "LC Pokhara Peace Valley",
+                "photo": "Suzi.jpg"
+            },
+            {
+                "ids": "50",
+                "name": "Leo Ganga Shrestha",
+                "designation": "Chairperson,Department of Women Empowerment",
+                "homeClub": "LC Gorkha",
+                "photo": "Ganga.jpg"
+            },
+            {
+                "ids": "51",
+                "name": "Leo Ankit Poudel",
+                "designation": "Business development and enterpreneurship",
+                "homeClub": "Leo cCub of Pokhara Lakecity",
+                "photo": "Ankit.jpg"
+            },
+            {
+                "ids": "52",
+                "name": "Leo Suman Tiwari",
+                "designation": "Region Coordinator,Budhanilkantha",
+                "homeClub": "LCK Central Town",
+                "photo": "Suman.jpg"
+            },
+            {
+                "ids": "53",
+                "name": "Leo Sabita Bhetwal",
+                "designation": "Region Coordinator,Pasupatinath",
+                "homeClub": "LCK Lord Buddha",
+                "photo": "Sabita.jpg"
+            },
+            {
+                "ids": "54",
+                "name": "Leo Jeevan Thapa Adit",
+                "designation": "Region Coordinator,Dhaulagiri",
+                "homeClub": "LC Baglung",
+                "photo": "Jeevan.jpg"
+            },
+            {
+                "ids": "55",
+                "name": "Leo Sasmina Khatiwada",
+                "designation": "Region Coordinator,Nagarjun",
+                "homeClub": "LCK Makhamali",
+                "photo": "Sasmina.jpg"
+            },
+            {
+                "ids": "56",
+                "name": "Leo Prahlad Acharya",
+                "designation": "Region Coordinator,Boudha",
+                "homeClub": "LCK Sahayatri",
+                "photo": "Prahlad.jpg"
+            },
+            {
+                "ids": "57",
+                "name": "Leo Nischal Hamal",
+                "designation": "Region Coordinator,Kageswori-Manohara",
+                "homeClub": "LCK Deurali",
+                "photo": "Nischal.jpg"
+            },
+            {
+                "ids": "58",
+                "name": "Leo Abhaya Thapa ",
+                "designation": "Region Coordinator,Tokha",
+                "homeClub": "LCK Prayasnagar ",
+                "photo": "Abhaya.jpg"
+            },
+            {
+                "ids": "59",
+                "name": "Leo Divya Neupane",
+                "designation": "Region Coordinator,Fewa",
+                "homeClub": "LC Pokhara Sangam",
+                "photo": "Divya.jpg"
+            },
+            {
+                "ids": "60",
+                "name": "Leo Angel Pandey",
+                "designation": "Region Coordinator,Dharahara",
+                "homeClub": "LCK Gongabu",
+                "photo": "Angel.jpg"
+            },
+            {
+                "ids": "61",
+                "name": "Leo Sulav Thakali ",
+                "designation": "Region Coordinator,Basantapur",
+                "homeClub": "LCK Bishal Bazar ",
+                "photo": "Sulav.jpg"
+            },
+            {
+                "ids": "62",
+                "name": "Leo Sajag Silwal",
+                "designation": "Region Coordinator,Swayambhu ",
+                "homeClub": "LCK Swoyambhu Town",
+                "photo": "Sajag.jpg"
+            },
+            {
+                "ids": "63",
+                "name": "Leo Niraj Dongol",
+                "designation": "Region Coordinator,Chandragiri",
+                "homeClub": "LCK Bhrikuti",
+                "photo": "Niraj.jpg"
+            },
+            {
+                "ids": "64",
+                "name": "Leo Bishnu Prasad Dahal",
+                "designation": "Region Coordinator,Machhapuchhre",
+                "homeClub": "LC Hemja"
+            },
+            {
+                "ids": "65",
+                "name": "Leo Bidur Sapkota",
+                "designation": "Region Coordinator,Annapurna",
+                "homeClub": "LC Pokhara Fistail City",
+                "photo": "Bidur.jpg"
+            },
+            {
+                "ids": "66",
+                "name": "Leo Prativa Shrestha",
+                "designation": "Region Coordinator,Tarkeswor",
+                "homeClub": "LCK Machhapokhari",
+                "photo": "Prativa.jpg"
+            },
+            {
+                "ids": "67",
+                "name": "Leo Ranjit Timilsina",
+                "designation": "Region Coordinator,Begnas",
+                "homeClub": "LC Pokhara Peace Chautari",
+                "photo": "Ranjit.jpg"
+            },
+            {
+                "ids": "68",
+                "name": "Leo Shree krishna Giri",
+                "designation": "Region Coordinator,Trishuli",
+                "homeClub": "LC Peace Khanihola ",
+                "photo": "ShreeKrishna.jpg"
+            },
+            {
+                "ids": "69",
+                "name": "Leo Umesh Shrestha",
+                "designation": "Region Coordinator,Kavrepalanchowk",
+                "homeClub": "LC Kavre Dhulikhel",
+                "photo": "Umesh.jpg"
+            },
+            {
+                "ids": "70",
+                "name": "Leo Amrit pandit",
+                "designation": "Region Coordinator,Masyandi",
+                "homeClub": "LC Aanbookhaireni city ",
+                "photo": "Amrit.jpg"
+            },
+            {
+                "ids": "71",
+                "name": "Leo Aamod Nepal",
+                "designation": "Co-chairperson Department of Fellowship and ECA",
+                "homeClub": "LC Nuwakot Paropakar",
+                "photo": "Aamod.jpg"
+            },
+            {
+                "ids": "72",
+                "name": "Leo Enjeela chaudhary",
+                "designation": "Co-chairperson,Department of IT",
+                "homeClub": "LCK Nagarjun",
+                "photo": "Enjeela.jpg"
+            },
+            {
+                "ids": "73",
+                "name": "Leo Uddhav Parajuli",
+                "designation": "Business development & Entrepreneurship department Co-Chairperson",
+                "homeClub": "Kathmandu Peace Eyes",
+                "photo": "Uddav.jpg"
+            },
+            {
+                "ids": "74",
+                "name": "Leo Samita Rana Magar",
+                "designation": "Co-Chairperson,Women Empowerment",
+                "homeClub": "LC Balaju",
+                "photo": "Samita.jpg"
+            },
+            {
+                "ids": "75",
+                "name": "Leo Aayush Mahata",
+                "designation": "Co-Chairperson,Department of Media and Communication)",
+                "homeClub": "LCK University, Kavre",
+                "photo": "Aayush.jpg"
+            },
+            {
+                "ids": "76",
+                "name": "Prabin Lamichhane ",
+                "designation": "Co-chairperson ",
+                "homeClub": "LCK Balaju Height ",
+                "photo": "Prabin.jpg"
+            },
+            {
+                "ids": "77",
+                "name": "Kushal Lamsal",
+                "designation": "Department Co-chairperson ",
+                "homeClub": "LC Khairenitar Dulegaunda Mantra ",
+                "photo": "Kushal.jpg"
+            },
+            {
+                "ids": "78",
+                "name": "Leo Dr. Sanjaya Shrestha ",
+                "designation": "Secretary,Health Depar",
+                "homeClub": "LCK Samakhushi ",
+                "photo": "Sanjaya.jpg"
+            },
+            {
+                "ids": "79",
+                "name": "Leo Bijay Puri",
+                "designation": "Secretary,Department of Health ",
+                "homeClub": "LC Kusma City",
+                "photo": "Bijay.jpg"
+            },
+            {
+                "ids": "80",
+                "name": "Leo Bijaya Gautam",
+                "designation": "Secretary,Department of Blood donation and Application ",
+                "homeClub": "LC Baglung",
+                "photo": ""
+            },
+            {
+                "ids": "81",
+                "name": "Leo Ayushma Bhetwal",
+                "designation": "Secretary,Department of SustainableDevelopment ",
+                "homeClub": "LCK Lord Buddha",
+                "photo": "Aayushma.jpg"
+            },
+            {
+                "ids": "82",
+                "name": "Leo Prashant pradhan ",
+                "designation": "Secretary,Department of IT ",
+                "homeClub": "LC Peace Thahanagar"
+            },
+            {
+                "ids": "83",
+                "name": "Ashmita Poudel",
+                "designation": "Media and Communication Department Secretary",
+                "homeClub": "LCK Mount Dhaulagiri",
+                "photo": "Ashmita.jpg"
+            },
+            {
+                "ids": "84",
+                "name": "Sapana Mahatara ",
+                "designation": "Department Secretary-Eye Vision, Childhood cancer Differently Able",
+                "homeClub": "LCK Chhabdi Barahi ",
+                "photo": "Sapana.jpg"
+            },
+            {
+                "ids": "85",
+                "name": "Sabina Bhandari",
+                "designation": "Department Secretary (Department of Women Empowerment)",
+                "homeClub": "LC Ktm Lord Buddha",
+                "photo": "Sabina.jpg"
+            },
+            {
+                "ids": "86",
+                "name": "Leo Puspa Raj Dhakal",
+                "designation": "Training Pool Secretary ",
+                "homeClub": "LCK Bed Vyas",
+                "photo": "Puspha.jpg"
+            },
+            {
+                "ids": "87",
+                "name": "Leo Ujjwal Chapagai",
+                "designation": "Training Pool Member",
+                "homeClub": "LC Lekhnath 7 lakecity",
+                "photo": "Ujjwal.jpg"
+            },
+            {
+                "ids": "88",
+                "name": "Leo Bijaya Manandhar",
+                "designation": "Member,Department of Business Development and Enterprenuership",
+                "homeClub": "LCK Tokha",
+                "photo": "Bijaya.jpg"
+            },
+            {
+                "ids": "89",
+                "name": "Leo Prabin Kumar Poudel",
+                "designation": "Training Pool Member",
+                "homeClub": "LC Sundarbajar ",
+                "photo": "PrabinKumar"
+            },
+            {
+                "ids": "90",
+                "name": "Leo Asim bhatta",
+                "designation": "Training Pool Member",
+                "homeClub": "LCK Everest Sunshine"
+            }
+        ];

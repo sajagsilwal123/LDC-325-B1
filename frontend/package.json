@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "dotenv": "^10.0.0",
     "mdbreact": "^5.0.2",
     "pdf-viewer-reactjs": "^2.2.3",
     "pdfjs-dist": "^2.6.347",

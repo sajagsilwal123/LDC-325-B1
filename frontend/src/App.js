@@ -1,3 +1,4 @@
+
 import Navigation from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
 import OurTeam from './components/AboutUs/OurTeam/OurTeam';
@@ -30,7 +31,8 @@ import Login from "./components/pages/login";
 import CreateEvents from "./components/CreateEvent/createevent";
 import Ourteam from "./components/OurTeam/ourteam";
 import ClubDetail from "./components/ClubDetails/clubdetails";
-import ClubSingle from "./components/AboutUs/ClubDetails/ClubSingle";
+// import ClubSingle from "./components/AboutUs/ClubDetails/ClubSingle";
+require('dotenv').config();
 function App() {
   return (
     <div className="App">
@@ -56,7 +58,7 @@ function App() {
             <Route path='/Events' component={Events} />
             <Route path='/AboutLeo' component={AboutLDC} />
             <Route path='/event/single/:_id' component={EventSingle} />
-            <Route path='/card/single/:_id' component={ClubSingle} />
+            {/* <Route path='/card/single/:_id' component={ClubSingle} /> */}
             <Route path='/login' component={Login} />
             <Route path='/admin' component={Admin} />
             <Route path='/admin/ourteams' component={Ourteam} />

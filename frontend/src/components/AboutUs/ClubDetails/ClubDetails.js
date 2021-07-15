@@ -1,13 +1,14 @@
-
-import CDCards from "./CDCards"
-
+import React, {useState} from "react";
+import { Table } from 'reactstrap';
+import CDCards from "./CDCards";
 
 function ClubDetails() {
-  return (
-    <div className="App">
-        <CDCards/>
-    </div>
-  );
+    return (
+        <div>
+            <CDCards />
+            <br/>
+        </div>
+    )
 }
 
 export default ClubDetails;

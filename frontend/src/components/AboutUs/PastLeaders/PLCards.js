@@ -12,7 +12,6 @@ import tirtha from '../../../public/images/PDP/tirtha.jpg'
 import prem from '../../../public/images/PDP/prem.jpg'
 import biplab from '../../../public/images/PDP/biplap.jpg'
 
-
 function PLCards() {
   return (
     <div className='PLcards'>
