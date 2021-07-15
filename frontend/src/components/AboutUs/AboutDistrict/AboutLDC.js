@@ -7,7 +7,7 @@ function AboutLDC() {
     <div >
         <br/>
         <h1>History of LEO</h1>
-        <p>Leo Club was founded in 1957 established to provide the youth of the world with an opportunity for development and contribution, individually and collectively, as responsible members of the local, national and international community. More than 200,000 Leo Clubs exist in 150 countries globally, and more than clubs are currently growing in Nepal to encourage youths to develop leadership qualities by participating in social service activities. In Nepal,...... founded for the first time. Leo leaders are growing in Nepal to lead and change society, solve existing problems, and serve the people. Leadership, Experience, Opportunity; the main motto, the primary objective; that's what makes a Leo; devoted to the society to bring changes to every essential infrastructure. 
+        <p>Leo Club was founded in 1973 established to provide the youth of the world with an opportunity for development and contribution, individually and collectively, as responsible members of the local, national and international community. More than 200,000 Leo Clubs exist in 150 countries globally, and more than clubs are currently growing in Nepal to encourage youths to develop leadership qualities by participating in social service activities. In Nepal,...... founded for the first time. Leo leaders are growing in Nepal to lead and change society, solve existing problems, and serve the people. Leadership, Experience, Opportunity; the main motto, the primary objective; that's what makes a Leo; devoted to the society to bring changes to every essential infrastructure. 
           Leo club members around Nepal fulfill this objective every day, and each Leo club encourages youths to develop leadership qualities by participating in social service activities. They all provide an opportunity for development and contribution, individually and collectively, as responsible local, national, and international community members.
         </p>
         <p>
@@ -18,7 +18,7 @@ function AboutLDC() {
         <br/>
                 <br/>
 
-        <h1>Leo District Council 325B1 Nepal</h1>
+        <h1>Leo District Council 325B1, Nepal</h1>
         <br/>
         <p>Leo District Council 325B1 Nepal is an umbrella organization to nurture around the 100 Leo Clubs of Nepal, empower thousands of youths to serve the less privileged people and the environment, bring positive impact to society, and promote the welfare of societal people.</p>
 

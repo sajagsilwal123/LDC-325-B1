@@ -37,9 +37,9 @@ class Navigaiton extends React.Component {
                                 <Nav.Link href="/" className='text-blue'>HOME</Nav.Link>
                             </Link>
                             <NavDropdown title="ABOUT-US" id="collasible-nav-dropdown" className='text-blue'>
-                                <NavDropdown.Item href="/OurTeam" className='text-blue'>Our team </NavDropdown.Item>
+                                <NavDropdown.Item href="/OurTeam" className='text-blue'>Our Team </NavDropdown.Item>
                                 <NavDropdown.Item href="/PastLeaders" className='text-blue'>Past Leaders</NavDropdown.Item>
-                                <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Details</NavDropdown.Item>
+                                <NavDropdown.Item href="/ClubDetails" className='text-blue'>Clubs Profile</NavDropdown.Item>
                                 <NavDropdown.Item href="/DeveloperTeam" className='text-blue'>Developer Team</NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
                                 {/* <NavDropdown.Item href="/" className='text-blue'>Message from district governer</NavDropdown.Item> */}

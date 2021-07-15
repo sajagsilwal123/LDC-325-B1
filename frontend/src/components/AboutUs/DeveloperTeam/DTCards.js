@@ -89,7 +89,7 @@ function DTCards() {
             /> 
                       <DTcardItem
               src={arasha}
-              title= 'Leo Arasha Maharjan'
+              title= 'Leo Arasa Maharjan'
               text='Leo Club of Kathmandu Prayasnagar'
               label='Content Writer'
             /> 

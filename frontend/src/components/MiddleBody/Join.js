@@ -27,13 +27,16 @@ function Join(){
                     
                 </Col>
                 <Col>
+                <br/>
+   
                     <center>
-                        <img src={leo} height='300px' />
+                        <img src={leo} height='320px' />
                     </center>
                 </Col>
                 <Col>
+                <br/>
                     <center>
-                        <img src={LDC325B1} height='300px' />
+                        <img src={LDC325B1} height='320px' />
                     </center>
                 </Col>
             </Row>

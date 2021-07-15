@@ -1,7 +1,6 @@
 import React from 'react';
 import './PLCards.css';
 import PLCardItem from './PLCardItems';
-import { Link } from 'react-router-dom';
 import leo from '../../../public/images/leo.png'
 
 function PLCards() {

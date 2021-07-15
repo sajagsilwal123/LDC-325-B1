@@ -1,7 +1,5 @@
 import React from 'react';
 import './CDCards.css';
-import CDCardItem from './CDCardItems';
-import { Link } from "react-router-dom";
 import { Table, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import axios from "axios";
 
