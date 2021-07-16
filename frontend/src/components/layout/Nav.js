@@ -49,8 +49,9 @@ class Navigaiton extends React.Component {
                             </NavDropdown>
                             <Nav.Link href="/Events" className='text-blue'>EVENTS</Nav.Link>
                             <NavDropdown title="RESOURCES" id="collasible-nav-dropdown" className='text-blue'>
-                                <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>                           
-                                {/* <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item> */}
+                                <NavDropdown.Item href="/ImportantDates" className='text-blue'>Important Dates</NavDropdown.Item>
+                                <NavDropdown.Item href="/LeoManual" className='text-blue'>Leo Manual</NavDropdown.Item>                           
+                                 <NavDropdown.Item href="/enewsletter" className='text-blue'>e-NewsLetter</NavDropdown.Item> 
                                 {/* <NavDropdown.Divider />
                                 <NavDropdown.Item href="MoreResources" className='text-blue'>More Resources</NavDropdown.Item> */}
                             </NavDropdown>
